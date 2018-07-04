@@ -1,0 +1,39 @@
+h6:before { content: "Rozdział " }
+table { counter-reset: verse; counter-increment: chapter; }
+tr.verse { counter-increment: verse; }
+td span { display: inline-block; }
+td { vertical-align: top; text-align: justify; }
+td.el { width: 50%; }
+td.la, td.pl { width: 25%; }
+td.el span:after {
+  content: attr(data-strong) "\a" attr(data-morphology);
+  white-space: pre;
+  font-size: 0.5em;
+  font-family: Menlo;
+  padding: 0 0.1em;
+  display: inline-block;
+  color: var(--base2);
+}
+tr.verse:before, tr.verse:after {
+  content: counter(chapter) "." counter(verse);
+  font-size: 0.5em;
+  white-space: nowrap;
+  font-family: Menlo;
+  vertical-align: top;
+  color: var(--base1);
+}
+.footnote {
+  font-family: Menlo;
+  color: var(--base1);
+  font-size: 0.5em;
+  text-align: left;
+}
+.comment td {
+  border: none;
+  font-family: Menlo;
+  color: var(--base1);
+  font-size: 0.5em;
+  padding: 2em 0 2em 3em;
+}
+th { padding: 1em 0; }
+
