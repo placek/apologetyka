@@ -37,7 +37,7 @@ tr.verse:before, tr.verse:after {
   padding: 2em 0 2em 3em;
 }
 th { padding: 1em 0; }
-p { padding: 0 2em; }
+p { padding: 0 2em; text-align: justify; }
 aside { display: inline-block; color: var(--base1) !important; padding-right: 1em; }
 h1 { margin-bottom: 0; }
 header { margin: 0 2em; }

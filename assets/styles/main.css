@@ -6,6 +6,6 @@ nav li  { display: inline-block; padding-right: 1em; }
 footer  { margin-top: 1em; font-size: .5em; }
 
 @media print {
-  nav { display: none; }
+  nav, footer { display: none; }
   body { font-size: .9rem; }
 }
