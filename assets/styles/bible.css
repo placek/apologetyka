@@ -38,4 +38,6 @@ tr.verse:before, tr.verse:after {
 }
 th { padding: 1em 0; }
 p { padding: 0 2em; }
-aside { display: inline-block; color: var(--base1) !important; }
+aside { display: inline-block; color: var(--base1) !important; padding-right: 1em; }
+h1 { margin-bottom: 0; }
+header { margin: 0 2em; }
