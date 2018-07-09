@@ -41,3 +41,4 @@ p { padding: 0 2em; text-align: justify; }
 aside { display: inline-block; color: var(--base1) !important; padding-right: 1em; }
 h1 { margin-bottom: 0; }
 header { margin: 0 2em; }
+a.link { display: inline-block; }
