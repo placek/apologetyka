@@ -27,5 +27,8 @@ a:active  { color: var(--red); }
 a:hover   { text-decoration: underline; }
 em        { color: var(--base1); }
 hr        { border-color: var(--base1); }
-h1, h2, h3, h4, h5, h6, strong, code, pre { color: var(--base01); }
-nav a:link, nav a:visited                 { color: var(--blue); }
+h1        { color: var(--red); }
+aside     { display: inline-block; color: var(--base1) !important; padding-right: 1em; }
+h2, h3, h4, h5, h6, strong, code, pre { color: var(--base01); }
+nav a:link, nav a:visited             { color: var(--blue); }
+::selection                           { color: var(--violet); background-color: var(--base2); }
