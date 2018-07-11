@@ -1,0 +1,1 @@
+document.querySelectorAll('.verse .el span').forEach(function(e) { e.addEventListener("dblclick", function(w) { window.open("../biblistyka/strong.html#" + w.toElement.dataset.strong, "_blank"); }); });
