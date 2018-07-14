@@ -1,10 +1,12 @@
-body    { font-family: Cardo; margin: 2em auto; max-width: 50em; font-size: 1.1rem; }
+@import url('https://fonts.googleapis.com/css?family=Cardo|Roboto+Mono');
+
+body    { font-family: 'Cardo', serif; margin: 2em auto; max-width: 50em; font-size: 1.1rem; }
 article { padding: 1em 3em; }
 hr      { border: 0; border-top-width: 1px; border-top-style: solid; }
 nav ul  { padding: 0; list-style: none; }
 nav li  { display: inline-block; padding-right: 1em; }
 footer  { margin-top: 1em; font-size: .5em; }
-footer strong { font-family: Menlo; font-size: 5px; color: var(--base1); }
+footer strong { font-family: 'Roboto Mono', monospace; font-size: 5px; color: var(--base1); }
 
 @media print {
   nav, footer { display: none; }

@@ -10,7 +10,7 @@ td.el span:after {
   content: attr(data-strong) "\a" attr(data-morphology);
   white-space: pre;
   font-size: 0.5em;
-  font-family: Menlo;
+  font-family: 'Roboto Mono', monospace;
   padding: 0 0.1em;
   display: inline-block;
   color: var(--base2);
@@ -19,20 +19,20 @@ tr.verse:before, tr.verse:after {
   content: counter(chapter) "." counter(verse);
   font-size: 0.5em;
   white-space: nowrap;
-  font-family: Menlo;
+  font-family: 'Roboto Mono', monospace;
   vertical-align: top;
   color: var(--base1);
 }
 tr.verse:target span { color: var(--magenta); }
 .footnote {
-  font-family: Menlo;
+  font-family: 'Roboto Mono', monospace;
   color: var(--base1);
   font-size: 0.5em;
   text-align: left;
 }
 .comment td {
   border: none;
-  font-family: Menlo;
+  font-family: 'Roboto Mono', monospace;
   color: var(--base1);
   font-size: 0.5em;
   padding: 2em 0 2em 3em;
