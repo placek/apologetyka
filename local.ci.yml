@@ -1,0 +1,18 @@
+version: '3'
+services:
+  web:
+    image: mini:5000/apologetyka
+    build:
+      context: .
+      dockerfile: Dockerfile.local.ci
+    container_name: apologetyka_web
+    environment:
+      - "VIRTUAL_HOST=apolo.mini"
+    expose:
+      - 80
+    networks:
+      - nginx-proxy_net
+
+networks:
+  nginx-proxy_net:
+    external: true
