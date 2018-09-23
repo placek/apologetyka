@@ -42,3 +42,10 @@ p { padding: 0 2em; text-align: justify; }
 h1 { margin-bottom: 0; }
 header { margin: 0 2em; }
 a.link { display: inline-block; }
+
+@media only screen and (max-width: 600px) {
+  body                { background-color: var(--base3) !important; }
+  td.el span:after    { display: none; }
+  td.el, td.la, td.pl { width: 33%; }
+  .footnote           { display: none; }
+}
