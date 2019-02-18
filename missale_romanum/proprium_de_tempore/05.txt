@@ -2,7 +2,7 @@ Druga Msza o świcie
 
 Msza o świcie odprawiała się w Rzymie w bardzo starożytnym kościele Św. Anastazji; była to jedyna parafia, położona w murach starożytnego Rzymu w dzielnicy zamieszkanej przez Patrycjuszów. Ponieważ świątynia ta stała u stóp Palatynu, gdzie mieszkali Cezarowie, stała się przeto kościołem wyższych urzędników dworskich. Tam też odprawiano drugą Mszę w Boże Narodzenie. Imię św. Anastazji wpisane jest w Kanon Mszy św.
 
-Introit (Iz 9, 2-6; Ps 92, 1)
+Introit (Iz 9,2-6; Ps 92,1)
 Lux fulgebit hódie super nos: quia natus est nobis Dóminus: et vocabitur Adrnirabilis, Deus, Princeps pacis, Pater futuri saeculi: cujus regni non erit finis.
 Dóminus regnavit, decórem indutus est: indutus est Dóminus fortitudinem, et praecinxit se. Gloria Patri…
 Światłość będzie jaśniała dzisiaj nad nami: albowiem narodził się nam Pan i nazwany będzie Przedziwny, Bóg, Książe pokoju, Ojciec przyszłego wieku, którego królestwu nie będzie końca.
@@ -12,15 +12,11 @@ Kolekta
 Da nobis, quasumus, omnipotens Deus: ut, qui nova incarnati Verbi tui luce perfundimur; hoc in nostro resplendeat ópere, quod per fidem fulget in mente. Per eumdem Dóminum…
 Wszechmogący i wieczny Boże, spraw, pokornie błagamy, abyśmy nowem światłem Słowa Twojego oświeceni, czynami swojemi okazywali to, w co wierzymy umysłem. Przez Tegoż Pana….
 
-Komemoracja o św. Anastazji
-Da, quaesumus, omnipotens Deus: ut, qui beatse Anastasiae Martyris tuae solemnia cólimus, ejus apud te patrocinia sentiamus. Per Dóminum…
-Daj prosimy Cię, Wszechmogący Boże, abyśmy obchodząc uroczystość błogosławionej Anastazji, Męczenniczki Twojej, za jej wstawiennictwem opieki Twojej doznawali. Przez Pana naszego…
-
-Lekcja (Tyt 3, 4-7)
+Lekcja (Tt 3,4-7)
 Carissime: Apparuit benignitas et humanitas Salvatoris nostri Dei: non ex operibus justitias, quae fecimus nos, sed secundum suam misericórdiam salvos nos fecit per lavacrum regeneratiónis et renovationis Spiritus sancti, quem effudit in nos abunde per Jesum Christum Salvatorem nostrum: ut justificati gratia ipsius, heredes simus secundum spem vitae aeternae: in Christo Jesu Domino nostro.
 Najmilszy, okazała się dobrotliwość i łaskawość Zbawiciela naszego, Boga: nie z uczynków sprawiedliwości, któreśmy uczynili, ale podług miłosierdzia swego zbawił nas, przez obmycie odrodzenia i odnowienia Ducha Świętego, którego wylał na nas obficie przez Jezusa Chrystusa, Zbawiciela naszego, abyśmy, usprawiedliwieni łaską Jego, byli dziedzicami według nadziei żywota wiecznego, w Jezusie Chrystusie Panu naszym.
 
-Graduał (Ps 117, 26, 27, 21)
+Graduał (Ps 117,26-27; Ps 117,21)
 Benedictus qui venit in nómine Domini: Deus Dóminus, et illuxit nobis. A Domino factum est istud: et est mirabile in óculis nostris.
 Błogosławiony, który przychodzi w Imię Pańskie: Bóg Pan i oświecił nas. Od Pana się to stało: a jest dziwno w oczach naszych.
 
@@ -28,11 +24,11 @@ Alleluja (Ps 92,1)
 Dóminus regnavit, decórem induit: induit Dóminus fortitudinem, et praecinxit se virtute. Alleluia.
 Pan królował, oblókł się w ozdobę, oblókł się Pan mocą i przepasał się. Alleluja.
 
-Ewangelia (Łk 2, 15-20)
+Ewangelia (Lk 2,15-20)
 In illo tempore: Pastóres loquebantur ad invicem: Transeamus usque Bethlehem, et videamus hoc verbum, quod factum est, quod Dóminus ostendit nobis. Et venerunt festinantes: et invenerunt Mariam, et Joseph, et infantem pósitum in praesepio. Videntes autem cognoverunt de verbo, quod dictum erat illis de puero hoc. Et omnes, qui audierunt, mirati sunt: et de his, quae dicta erant a pastóribus ad ipsos. Maria autem conservabat ómnia verba haec, cónferens in corde suo. Et reversi sunt pastóres glorificantes, et laudantes Deum in omnibus, quae audierant et viderant, sicut dictum est ad illos.
 Onego czasu: Pasterze mówili jeden do drugiego: Pójdźmy aż do Betlejem, a oglądajmy to słowo, które się stało, które nam Pan pokazał. I przyszli kwapiąc się, i znaleźli Marję i Józefa, i niemowlątko położone w żłobie. A ujrzawszy, poznali słowo, które im było powiedziane o dzieciątku tem. A wszyscy, którzy słyszeli, dziwowali się temu, i co do nich pasterze mówili. Lecz Marja te wszystkie słowa zachowywała, stosując w sercu swojem. 1 wrócili się pasterze, wysławiając i chwaląc Boga ze wszystkiego, co słyszeli i widzieli, jako im powiedziano jest.
 
-Ofertorium (Ps 92, 1-2)
+Ofertorium (Ps 92,1-2)
 Deus firmavit orbem terrae, qui non commovebitur: parata sedes tua Deus, ex tunc a saeculo tu es.
 Pan umocnił okrąg świata, który się nie poruszy. Zgotowana stolica Twoja Boże od onego czasu: Ty jesteś od wieku.
 
@@ -40,12 +36,8 @@ Sekreta
 Munera nostra, quaesumus, Dómine, nativitatis hodiernae mysteriis apta proveniant, et pacem nobis semper infundant: ut, sicut homo genitus idem refulsit et Deus, sic nobis haeic terrena substantia cónferat, quod divinum est. Per eumdem Dóminum nostrum Jesum Christum…
 Niechaj dary nasze, prosimy Cię, Panie, okażą się godne dzisiejszej tajemnicy Narodzin i pokój nam zawsze przynoszą; a jako narodzony dziś człowiek Bogiem się okazał, tak i na nas niech te ziemskie dary sprowadzą to, co jest Boskie. Przez Pana…
 
-O św. Anastazji
-Accipe, quaesumus, Dómine, munera dignanter oblata: et beatse Anastasiae Martyris tuas suffragantibus meritis, ad nostras salutis auxilium provenire concede. Per Dóminum…
-Racz przyjąć, prosimy Cię, Panie, dary godnie Tobie ofiarowane i spraw, aby za wstawiennictwem błogosławionej Anastazji, Męczenniczki Twojej, stały się nam pomocą do zbawienia. Przez Pana…
-
-Komunia (Za 9, 9)
-Exsulta filia Sion, .lauda filia Jerusalem: ecce Rex tuus venit sanctus: et salvator mundi.
+Komunia (Za 9,9)
+Exsulta filia Sion, lauda filia Jerusalem: ecce Rex tuus venit sanctus: et salvator mundi.
 Raduj się wielce córko Sionu, wykrzykuj córko Jeruzalem: oto Król Twój przyszedł Święty i Zbawiciel świata.
 
 Po Komunii
