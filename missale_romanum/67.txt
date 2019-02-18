@@ -4,7 +4,7 @@ W ostatnich dniach września czytamy księgę Estery. Opisuje ona epizod z czas�
 Msza św. rozwija dalej myśl o «Paruzji», przyjściu Pana. Wierni pierwszych wieków żyli stale w oczekiwaniu Chrystusa pomni na Jego słowa: «Módlcie się, a czuwajcie, bo nie wiecie o której godzinie zjawi się Pan». Kościół w trosce o zbawienie dusz, owieczek sobie powierzonych, stale przypomina, że tęsknota za niebem powinna nam towarzyszyć przez całe życie (Ofertorium). Lekcja i Ewangelia kładą nacisk głównie na modlitwę.
 Urzędnika z Kafarnaum należy odróżnić od setnika. Jego wiara była niewątpliwie słabsza od tej, jaką okazał w podobnych okolicznościach setnik. Dlatego Jezus najpierw powiada do niego «jeżeli nie widzicie znaków i cudów, nie wierzycie» i wystawiając na ciężką próbę odsyła go z gołosłownym, jak się zdaje, zapewnieniem: «Syn twój żyje». «Widać z tej Ewangelii — mówi św. Beda — że tak samo w wierze jak i w innych cnotach można zauważyć pewne stopnie: początek, postęp i doskonałość. Wiarę początkową posiadał nasz urzędnik, gdy prosił o uzdrowienie syna, postąpił w wierze, gdy uwierzył słowom Zbawiciela, doskonałość zaś w niej osiągnął na wiadomość przyniesioną przez sługi.» Nauczmy się z jak najdoskonalszą wiarą przyjmować słowo Boże, w które Chrystus każe nam wierzyć: «ono nas pociesza w naszej nędzy» (Komunia).
 
-Introit (Dn 3, 31.29.35; Ps 118, 1)
+Introit (Dn 3,31; Dn 3,29; Dn 3,35; Ps 118,1)
 Omnia, quae fecisti nobis, Domine, in vero iudicio fecisti, quia peccavimus tibi, et mandatis tuis non oboedivimus: sed da gloriam nomini tuo, et fac nobiscum secundum multitudinem misericordiae tuae.
 Beati immaculati in via: qui ambulant in lege Domini.Gloria Patri …Omnia, quae…
 Wszystko, coś na nas dopuścił, Panie, według sprawiedliwego wyroku nas spotkało, bośmy zgrzeszyli przeciwko Tobie i przykazań Twoich nie strzegliśmy. Lecz zechciej wsławić Twe Imię i postąp z nami wedle niezmierzonej dobroci Twojej.
@@ -14,19 +14,19 @@ Kolekta
 Largire, quaesumus, Domine, fidelibus tuis indulgentuam placatus et pacem; ut pariter ab omnibus mundentur offensis, et secura tibi mente deserviant. Per Dominum nostrum…
 Prosimy Cię, Panie, użycz wiernym Twoim przebaczenia i pokoju, aby oczyszczeni ze wszystkich win swoich mogli Ci służyć sercem spokojnym. Przez Pana naszego…
 
-Lekcja (Ef 5, 15-21)
+Lekcja (Ef 5,15-21)
 
-Graduał (Ps 144, 15-16)
+Graduał (Ps 144,15-16)
 Oculi omnium in te sperant, Domine: et tu das illis escam in tempore opportuno. Aperis tu manum tuam: et imples omne animal benedictione.
 Oczy wszystkich z ufnością patrzą na Ciebie, Panie: Ty dajesz im pokarm we właściwej porze. Otwierasz rękę swoją i błogosławieństwem napełniasz wszystko co żyje.
 
-Alleluja (Ps 107, 2)
+Alleluja (Ps 107,2)
 Paratum cor meum, Deus, paratum cor meum: cantabo, et psallam tibi, gloria mea. Alleluia.
 Gotowe serce moje, Boże, gotowe serce moje: zaśpiewam i zagram Ci psalm, Chwało moja. Alleluja.
 
-Ewangelia (J 4, 46-53)
+Ewangelia (J 4,46-53)
 
-Ofertorium (Ps 136, 1)
+Ofertorium (Ps 136,1)
 Super flumina Babylonis illic sedimus, et flevimus: dum recodaremur tui, Sion.
 Nad rzekami Babilonu siedzieliśmy i płakaliśmy, gdy wspominaliśmy Ciebie, Syjonie.
 
@@ -34,7 +34,7 @@ Sekreta
 Caelestem nobis praebeant haec mysteria, quaesumus, Domine, medicinam: et vitia nostri cordis expurgent. Per Dominum nostrum…
 Prosimy Cię, Panie niechaj te święte Tajemnice udzielą nam z niebios lekarstwa, które oczyści z nieprawości serca nasze. Przez Pana naszego…
 
-Komunia (Ps 118, 49-50)
+Komunia (Ps 118,49-50)
 Memento verbi tui servo tuo, Domine, in quo mihi spem dedisti: haec me consolata est in humilitate mea.
 Pomnij na obietnicę daną słudze Twemu, Panie, w którą kazałeś mi wierzyć. Ona mnie pociesza w mojej nędzy.
 

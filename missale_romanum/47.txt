@@ -4,7 +4,7 @@ Najświętszy Sakrament Ciała i Krwi Pańskiej czci Kościół w każdej Mszy �
 Powodem ustanowienia były objawienia, jakie miewała św. Julianna, augustynka z Cornillon (1193-1258). Po zbadaniu sprawy ustanowiono święto w diecezji Liege (Belgia). Papież Urban IV wprowadził je do Kościoła powszechnego; jego zarządzenia potwierdził Papież Klemens V i Jan XXII, który dodał oktawę. Sekwencja zawiera streszczenie nauki katolickiej o Najświętszym Sakramencie.
 W głównych kościołach w każdej miejscowości po Mszy św. wychodzi procesja. W Polsce istnieje od XV wieku zwyczaj śpiewania czterech Ewangelii przy czterech ołtarzach ustawionych w drodze pochodu. Ten śpiew Ewangelii jest wyznaniem wiary, że pod postaciami chleba mamy wśród siebie tego samego Pana Jezusa Chrystusa, o którym opowiadają Ewangelie.
 
-Introit (Ps 80, 17; Ps 80, 2)
+Introit (Ps 80,17; Ps 80,2)
 Cibavit eos ex adipe frumenti, alleluia: et de petra, melle saturavit eos, alleluia, alleluia, alleluia.
 Exsultate Deo adiutori nostro: iubilate Deo Iacob. Gloria Patri… Cibavit eos…
 Karmił ich pszenicą przewyborną, alleluja. A z opoki miodem nasycił ich, alleluja, alleluja, alleluja.
@@ -14,13 +14,13 @@ Kolekta
 Deus, qui nobis sub Sacramento mirabili passionis tuae memoriam reliquisti: tribue, quaesumus, ita nos Corporis et Sanguinis tui sacra mysteria venerari; ut redemptionis tuae fructum in nobis iugiter sentiamus: Qui vivis et regnas…
 Boże, Tyś w przedziwnym Sakramencie pamiątkę nam zostawił męki swojej: daj nam, prosimy, tak uczcić świętą Tajemnicę Ciała i Krwi Twojej, abyśmy ustawicznie w nas odczuwali owoc odkupienia Twego. Który żyjesz i królujesz…
 
-Lekcja (1Kor 11, 23-29)
+Lekcja (1Kor 11,23-29)
 
-Graduał (Ps 144, 15-16)
+Graduał (Ps 144,15-16)
 Oculi omnium in te sperant, Domine: et tu das illis escam in tempore opportuno. Aperis tu manum tuam: et imples omne animal benedictione.
 Oczy wszystkich z ufnością patrzą na Ciebie Panie; Ty dajesz im pokarm we właściwej porze. Otwierasz rękę swoją i napełniasz wszystko, co żyje, błogosławieństwem.
 
-Alleluja (Ps 6, 56-57)
+Alleluja (Ps 6,56-57)
 Caro mea vere est cibus, et sanguis meus vere est potus: qui manducat meam carnem, et bibit meum sanguinem, in me manet et ego in eo.
 Ciało moje prawdziwe jest pokarmem, Krew moja prawdziwie jest napojem. Kto pożywa Ciało moje i pije Krew moją, we Mnie mieszka, a ja w nim.
 
@@ -75,9 +75,9 @@ O pasterzu, chlebie żywy, Jezu, bądź nam litościwy, Nakarm nas i nie gub mś
 Znawco naszych dusz tajników, Co nas żywisz, śmiertelników, Uczyń nas współbiesiadników, Współdziedziców i wspólników: W wybranych rodzinie.
 Amen. Alleluja.
 
-Ewangelia (J 6, 56-59)
+Ewangelia (J 6,56-59)
 
-Ofertorium (Kpł 21, 6)
+Ofertorium (Kpl 21,6)
 Sacerdotes Domini incensum et panes offerunt Deo: et ideo sancti erunt Deo suo, et non polluent nomen eius, alleluia.
 Kapłani Pańscy kadzenie i chleb składają Bogu w ofierze, przeto świętymi być powinni wobec Boga swego, by nie zhańbili Jego Imienia, alleluja.
 
@@ -85,7 +85,7 @@ Sekreta
 Ecclesiae tuae, quesumus, Domine, unitatis et pacis propitius dona concede: quae sub oblatis muneribus mystice designatur. Per Dominum nostrum…
 Prosimy Ciebie, Panie, użycz łaskawie Kościołowi Twemu darów jedności i pokoju, które mistycznie wyraża ofiara przez nas składana. Przez Pana naszego…
 
-Komunia (1Kor 11, 26-27)
+Komunia (1Kor 11,26-27)
 Quotiescumque manducabitis panem hunc, et calicem bibetis, mortem Domini annuntiabitis, donec veniat: itaque quicumque manducaverit panem, vel biberit calicem Domini indigne, reus erit corporis et sanguinis Domini, alleluia.
 Ilekroć będziecie ten chleb jedli i kielich pili, śmierć Pańską opowiadać będziecie, aż On przyjdzie. Ktokolwiek by przeto chleb ten pożywał lub kielich Pański pił niegodnie, winien będzie Ciała i Krwi Pańskiej, alleluja.
 

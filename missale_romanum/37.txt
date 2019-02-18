@@ -2,7 +2,7 @@ Niedziela Przewodnia
 
 Stacja odbywała się w kościele wybudowanym ku czci młodego dwunastoletniego męczennika, św. Pankracego, który poniósł śmierć za czasów Dioklecjana. — Niedziela ta nazywa się Quasimodo od pierwszych słów Introitu, albo Biała, in Albis, bo w przededniu tego dnia, neofici zdejmowali białe szaty, albo Zakończeniem Wielkanocy, bo w tym dniu kończy się oktawa Wielkiejnocy (Or.) Kościół przyrównywa neofitów do nowonarodzonych dzieci, a mleko, którym ich karmi (Intr.) to wiara Chrystusowa, dająca im moc do zwyciężania świata. Wiara ta opiera się na świadectwie Ojca Niebieskiego, który przy chrzcie Chrystusa Pana (woda) ogłosił Go swym Synem; na świadectwie Syna, który umierając na krzyżu, (krew), okazał się Synem Bożym i na świadectwie Ducha Św., który przez Zmartwychwstanie Jezusa świadczy o Jego boskości (Ew.).
 
-Introit: (1P 2, 2; Ps. 80, 2)
+Introit: (1P 2,2; Ps 80,2)
 Quasi modo geniti infantes, alleluia: rationabiles, sine dolo lac concupiscite, alleluia, alleluia, alleluia.
 Exsultate Deo adjutóri nostro: jubilate Deo Jacob. Gloria Patri…
 Jako dopiero narodzone niemowlęta, alleluja: duchowego, niesfałszowanego mleka pożądajcie, alleluja, alleluja, alleluja.
@@ -12,21 +12,21 @@ Kolekta
 Praesta quaesumus, omnipotens Deus: ut qui paschalia festa peregimus; haec, te largiente, móribus et vita teneamus Per Dóminum…
 Spraw, prosimy Cię, wszechmogący Boże, aby, którzyśmy uroczystość Wielkanocną obchodzili, ducha jej w czynach i postępowaniu przez całe życie zachowali. Przez Pana…
 
-Lekcja (1J 5, 4-10)
+Lekcja (1J 5,4-10)
 Wszystko bowiem, co z Boga zrodzone, zwycięża świat; tym właśnie zwycięstwem, które zwyciężyło świat, jest nasza wiara. A kto zwycięża świat, jeśli nie ten, kto wierzy, że Jezus jest Synem Bożym? Jezus Chrystus jest tym, który przyszedł przez wodę i krew, i Ducha, nie tylko w wodzie, lecz w wodzie i we krwi. Duch daje świadectwo, bo <Duch> jest prawdą. Trzej bowiem dają świadectwo: Duch, woda i krew, a ci trzej w jedno się łączą. Jeśli przyjmujemy świadectwo ludzi - to świadectwo Boże więcej znaczy, ponieważ jest to świadectwo Boga, które dał o swoim Synu. Kto wierzy w Syna Bożego, ten ma w sobie świadectwo Boga, kto nie wierzy Bogu, uczynił Go kłamcą, bo nie uwierzył świadectwu, jakie Bóg dał o swoim Synu.
 
-Alleluja (Mt 28, 7)
+Alleluja (Mt 28,7)
 In die resurrectiónis meae, dicit Dóminus, praecedam vos in Galilaeam.
 W dzień Zmartwychwstania, mówi Pan, uprzedzę was do Galilei.
 
-Alleluja (J 20, 26)
+Alleluja (J 20,26)
 Post dies octo januis clausis, stetit Jesus in medio discipulórum suórum, et dixit: Pax vobis. Alleluia.
 Po ośmiu dniach, drzwiami zamkniętymi, stanął Jezus w pośrodku uczniów swoich i rzekł: Pokój wam. Alleluja.
 
-Ewangelia (J 20, 19-31)
+Ewangelia (J 20,19-31)
 Wieczorem owego pierwszego dnia tygodnia, tam gdzie przebywali uczniowie, gdy drzwi były zamknięte z obawy przed Żydami, przyszedł Jezus, stanął pośrodku i rzekł do nich: Pokój wam! A to powiedziawszy, pokazał im ręce i bok. Uradowali się zatem uczniowie ujrzawszy Pana. A Jezus znowu rzekł do nich: Pokój wam! Jak Ojciec Mnie posłał, tak i Ja was posyłam. Po tych słowach tchnął na nich i powiedział im: Weźmijcie Ducha Świętego! Którym odpuścicie grzechy, są im odpuszczone, a którym zatrzymacie, są im zatrzymane. Ale Tomasz, jeden z Dwunastu, zwany Didymos, nie był razem z nimi, kiedy przyszedł Jezus. Inni więc uczniowie mówili do niego: Widzieliśmy Pana! Ale on rzekł do nich: Jeżeli na rękach Jego nie zobaczę śladu gwoździ i nie włożę palca mego w miejsce gwoździ, i nie włożę ręki mojej do boku Jego, nie uwierzę. A po ośmiu dniach, kiedy uczniowie Jego byli znowu wewnątrz /domu/ i Tomasz z nimi, Jezus przyszedł mimo drzwi zamkniętych, stanął pośrodku i rzekł: Pokój wam! Następnie rzekł do Tomasza: Podnieś tutaj swój palec i zobacz moje ręce. Podnieś rękę i włóż /ją/ do mego boku, i nie bądź niedowiarkiem, lecz wierzącym. Tomasz Mu odpowiedział: Pan mój i Bóg mój! Powiedział mu Jezus: Uwierzyłeś dlatego, ponieważ Mnie ujrzałeś? Błogosławieni, którzy nie widzieli, a uwierzyli. I wiele innych znaków, których nie zapisano w tej książce, uczynił Jezus wobec uczniów. Te zaś zapisano, abyście wierzyli, że Jezus jest Mesjaszem, Synem Bożym, i abyście wierząc mieli życie w imię Jego.
 
-Ofertorium (Mt 28, 2, 5 i 6)
+Ofertorium (Mt 28,2; Mt 28,5-6)
 Angelus Domini descendit de caelo, et dixit mulieribus: Quem quaeritis, surrexit, sicut dixit, alleluia.
 Anioł Pański zstąpił z nieba i rzekł niewiastom: Którego szukacie, powstał jako powiedział, alleluja.
 
@@ -34,7 +34,7 @@ Sekreta
 Suscipe munera, Dómine, quaesumus, exsultantis Ecclesiae: et cui causam tanti gaudii praestitisti, perpetuse fructum concede laetitiae. Per Dóminum…
 Przyjmij, prosimy Cię, Panie, ofiary radującego się Kościoła Twego, a jakoś mu dał przyczynę tak wielkiego wesela, daj mu w przyszłości używać radości wiekuistej. Przez Pana…
 
-Komunia (J 20, 27)
+Komunia (J 20,27)
 Mitte manum tuam, et cognósce loca clavórum, alleluia: et noli esse incredulus, sed fidelis, alleluia, alleluia.
 Ściągnij rękę twoją, a poznaj miejsce gwoździ, alleluja i nie bądź niewiernymi ale wiernym, alleluja, alleluja.
 

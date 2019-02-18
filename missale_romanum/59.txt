@@ -5,7 +5,7 @@ Znany jest komentarz św. Augustyna do słów Chrystusa: «Jeżeli Bóg mówi: z
 Introit składa się z wersetu, którym zaczynamy każdą horkę w brewiarzu. Ojcowie Kościoła zalecali tę modlitwę jako najlepszy akt strzelisty i najskuteczniejszą modlitwę w pokusach.
 W ofertorium śpiewamy piękną modlitwę Mojżesza, ustawodawcy Starego Zakonu, o którym wspomina lekcja i Ewangelia. Pokomunia jest treściwym skrótem dogmatu o skutkach Eucharystii: Zjednoczenie z Chrystusem jest źródłem życia, odpuszczenia grzechów i łask do pracy.
 
-Introit (Ps 69, 2-3; Ps 69, 4)
+Introit (Ps 69,2-3; Ps 69,4)
 Deus, in adiutorium meum intende: Domine, ad adiuvandum me festina: confundatur et revereantur inimici mei, qui quaerunt animam meam.
 Avertantur retrorsum, et erubescant: qui cogitant mihi mala. Gloria Patri… Deus, in adiutorium…
 Boże, ku wspomożeniu memu wejrzyj, Panie ku ratunkowi memu pospiesz. Niech się zawstydzą i pohańbieni będą, którzy godzą na życie moje.
@@ -15,19 +15,19 @@ Kolekta
 Omnipotens et misericors Deus, de cuius munere venit, ut tibi a fidelibus tuis digne et laudabiliter serviatur: tribue, quesumus, nobis; ut ad promissiones tuas sine offensione curramus. Per Dominum nostrum…
 Wszechmocny, miłosierny Boże, Tobie wierni zawdzięczają, iż godnie i chwalebnie mogą Ci służyć, spraw więc, prosimy, byśmy bez przeszkody dążyli do obietnic Twoich. Przez Pana naszego…
 
-Lekcja (2Kor 3, 4-9)
+Lekcja (2Kor 3,4-9)
 
-Graduał (Ps 33, 2-3)
+Graduał (Ps 33,2-3)
 Benedicam Dominum in omni tempore: semper laus eius in ore meo. In Domino laudabitur anima mea: audiant mansueti, et laetentur.
 Wielbić będę Pana każdego czasu, chwała Jego zawsze na ustach moich. Panem się chlubi dusza moja, niech posłuchają strapieni, niech się rozweselą.
 
-Alleluja (Ps 87, 2)
+Alleluja (Ps 87,2)
 Domine Deus salutis meae, in die clamavi et nocte coram te. Alleluia.
 Panie Boże, zbawienia mego, we dnie i w nocy wołam do Ciebie. Alleluja.
 
-Ewangelia (Łk 10, 23-37)
+Ewangelia (Lk 10,23-37)
 
-Ofertorium (Wj 32, 11.13.14)
+Ofertorium (Wj 32,11; Wj 32,13-14)
 Precatus est Moyses in conspectu Domini Dei sui, et dixit: Quaere, Domine, irasceris in populo tuo? Parce irae animae tuae: memento Abraham, Isaac, et Iacob, quibus iurasti dare terram fluentem lac et mel. Et placatus factus est Dominus de malignitate, quam dixit facere populo suo.
 Prosił Mojżesz będąc przed obliczem Pana, Boga swego i mówił: czemu się gniewasz na lud swój, Panie? Ułagodź gniew ducha Twego. Wspomnij na Abrahama, Izaaka i Jakuba, którym obiecałeś dać ziemię mlekiem i miodem opływającą. I dał się ubłagać Pan, żeby nie zesłał kary, którą zagroził ludowi swemu.
 
@@ -35,7 +35,7 @@ Sekreta
 Hostias, quaeasumus, Domine, propitius intende, quas sacris altaribus exhibemus: ut nobis indulgentiam largiendo, tuo nomini dent honorem. Per Dominum nostrum…
 Wejrzyj miłościwie, Panie, na tę Hostię, którą zanosimy na święte ołtarze Twoje, aby udzielając nam przebaczenia przyniosła chwałę Imieniu Twojemu. Przez Pana naszego…
 
-Komunia (Ps 103, 13.14-15)
+Komunia (Ps 103,13-15)
 De fructu operum tuorum, Domine, satiabitur terra: ut educas panem de terra, et vinum laetificet cor hominis: ut exhilaret faciem in oleo, et panis cor hominis confirmet.
 Owocem dzieł Twoich, Panie, nasyca się ziemia i tak wyprowadzasz pokarm ze ziemi: wino, co serce człowieka rozwesela i oliwę, od której błyszczą jego lica oraz chleb, co człowieka siły pokrzepia.
 
