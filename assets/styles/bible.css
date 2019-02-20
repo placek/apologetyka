@@ -24,7 +24,7 @@ tr.verse:before, tr.verse:after {
   color: var(--base1);
 }
 tr.verse:target span { color: var(--magenta); }
-.footnote {
+.footnote, .link {
   font-family: 'Roboto Mono', monospace;
   color: var(--base1);
   font-size: 0.5em;
@@ -37,11 +37,12 @@ tr.verse:target span { color: var(--magenta); }
   font-size: 0.5em;
   padding: 2em 0 2em 3em;
 }
+.link { padding-right: 1em; }
 th { padding: 1em 0; }
 p { padding: 0 2em; text-align: justify; }
 h1 { margin-bottom: 0; }
 header { margin: 0 2em; }
-a.link { display: inline-block; }
+a { display: inline-block; }
 
 @media only screen and (max-width: 600px) {
   body                { background-color: var(--base3) !important; }

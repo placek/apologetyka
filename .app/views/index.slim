@@ -1,0 +1,37 @@
+- @verses.group_by(&:book).each do |book, bverses|
+  - book = @books.find { |b| b.abbr == book }
+  article
+    header
+      h1= book.names[@langs.first]
+      - (@langs - [@langs.first]).each do |lang|
+        aside= book.names[lang]
+
+    - book.description.lines.each do |line|
+      p.description= line
+
+    - bverses.group_by(&:chapter).each do |chapter, cverses|
+      h6= chapter
+      table
+        - cverses.group_by(&:verse).each do |verse, verses|
+          - if story = verses.last.story
+            tr class="story": th colspan="#{@langs.size + 1}" = story
+          - if comment = verses.last.comment
+            tr class="comment": td colspan="#{@langs.size + 1}" = comment
+
+          tr class="verse" id="#{chapter}.#{verse}"
+            - verses.each do |obj|
+              td class="#{obj.lang}"
+                - if obj.strong.empty?
+                  = obj.text
+                - else
+                  - obj.text.split.each_with_index do |word, i|
+                    span> data-strong="#{obj.strong[i]}" data-morphology="#{obj.morphology[i]}" = word
+                - obj.footnotes.each do |footnote|
+                  .footnote= footnote
+                - obj.links.each do |link|
+                  .link= link
+javascript:
+  (function(selector, destination) {
+    for(let element of document.querySelectorAll(selector)) { element.innerHTML = element.innerHTML.replace(/\b(\d?[A-Z][a-z]{0,2}) (\d+)\.(\d+)(-\d+)?/g, '<a href="' + destination + '$1.html#$2.$3">$1 $2.$3$4</a>');}
+  })('.comment td, .link, .footnote, .description', '');
+
