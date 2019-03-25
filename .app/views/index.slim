@@ -9,17 +9,17 @@
     - book.description.lines.each do |line|
       p.description= line
 
-    - bverses.group_by(&:chapter).each do |chapter, cverses|
+    - bverses.sort_by(&:chapter).group_by(&:chapter).each do |chapter, cverses|
       h6= chapter
       table
-        - cverses.group_by(&:verse).each do |verse, verses|
+        - cverses.sort_by(&:verse).group_by(&:verse).each do |verse, verses|
           - if story = verses.last.story
             tr class="story": th colspan="#{@langs.size + 1}" = story
           - if comment = verses.last.comment
             tr class="comment": td colspan="#{@langs.size + 1}" = comment
 
           tr class="verse" id="#{chapter}.#{verse}"
-            - verses.each do |obj|
+            - verses.sort_by(&:lang).each do |obj|
               td class="#{obj.lang}"
                 - if obj.strong.empty?
                   = obj.text
