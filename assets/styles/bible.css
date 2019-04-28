@@ -39,7 +39,7 @@ tr.verse:target span { color: var(--magenta); }
 }
 .link { padding-right: 1em; }
 th { padding: 1em 0; }
-p { padding: 0 2em; text-align: justify; }
+p { padding: 0 2em; }
 h1 { margin-bottom: 0; }
 header { margin: 0 2em; }
 a { display: inline-block; }
