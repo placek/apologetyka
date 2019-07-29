@@ -24,3 +24,7 @@ h6::before {
   counter-increment: h6;
   content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) ". ";
 }
+ol { text-align: justify; }
+ol > li { color: var(--base01); }
+ul.notes { list-style: none; }
+a { white-space: nowrap; }
