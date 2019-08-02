@@ -1,0 +1,11 @@
+table tr td { border: none; text-align: justify; vertical-align: top; }
+table tr td:last-of-type { border: none; width: 50%; }
+table tr td:first-of-type { border-right: .5px solid; }
+p { font-size: .8em; margin: .5em auto; color: var(--red); }
+span { font-size: .8em; color: var(--red); }
+ul li { font-size: .8em; color: var(--red); }
+
+td.s::before { content: 'S.'; font-size: .7em; color: var(--base1); font-family: 'Roboto Mono', monospace; }
+td.m::before { content: 'M.'; font-size: .7em; color: var(--base1); font-family: 'Roboto Mono', monospace; }
+td.k::before { content: 'K.'; font-size: .7em; color: var(--base1); font-family: 'Roboto Mono', monospace; }
+td.w::before { content: 'W.'; font-size: .7em; color: var(--base1); font-family: 'Roboto Mono', monospace; }
