@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" unique-identifier="bookid" version="2.0">
+  <metadata>
+    <dc:title>Elementarz metafizyki</dc:title>
+    <dc:creator opf:file-as="Gogacz, Mieczysław" opf:role="aut">Mieczysław Gogacz</dc:creator>
+    <dc:identifier id="bookid">urn:uuid:71ae52bf-3ad9-4b40-a123-5198d6ae9755</dc:identifier>
+    <dc:rights>Copyright © 1998 Mieczysław Gogacz. All rights reserved.</dc:rights>
+    <dc:publisher>Wydawnictwo Veni</dc:publisher>
+    <dc:language>pl-PL</dc:language>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="text/xml"/>
+    <item id="content" href="content.html" media-type="application/xhtml+xml"/>
+    <item id="css" href="stylesheet.css" media-type="text/css"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="content"/>
+  </spine>
+</package>

@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:71ae52bf-3ad9-4b40-a123-5198d6ae9755"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Elementarz metafizyki</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="book" playOrder="1">
+      <navLabel>
+        <text>Elementarz metafizyki</text>
+      </navLabel>
+      <content src="content.html"/>
+    </navPoint>
+    <navPoint id="book_1" playOrder="2">
+      <navLabel>
+        <text>Przedmowa</text>
+      </navLabel>
+      <content src="content.html#book_1"/>
+    </navPoint>
+    <navPoint id="book_2" playOrder="3">
+      <navLabel>
+        <text>Spotkanie źródłem poznania i przedmiotu nauk</text>
+      </navLabel>
+      <content src="content.html#book_2"/>
+    </navPoint>
+    <navPoint id="book_3" playOrder="4">
+      <navLabel>
+        <text>Byt z pozycji spotkania i poznania</text>
+      </navLabel>
+      <content src="content.html#book_3"/>
+    </navPoint>
+    <navPoint id="book_4" playOrder="5">
+      <navLabel>
+        <text>Byt w aspekcie przyczyn</text>
+      </navLabel>
+      <content src="content.html#book_4"/>
+    </navPoint>
+    <navPoint id="book_5" playOrder="6">
+      <navLabel>
+        <text>Transcendentalne własności bytu i pierwsze zasady</text>
+      </navLabel>
+      <content src="content.html#book_5"/>
+    </navPoint>
+    <navPoint id="book_6" playOrder="7">
+      <navLabel>
+        <text>Relacje</text>
+      </navLabel>
+      <content src="content.html#book_6"/>
+    </navPoint>
+    <navPoint id="book_7" playOrder="8">
+      <navLabel>
+        <text>Dominujący w bycie akt istnienia</text>
+      </navLabel>
+      <content src="content.html#book_7"/>
+    </navPoint>
+    <navPoint id="book_8" playOrder="9">
+      <navLabel>
+        <text>Istnienie samoistne - Bóg</text>
+      </navLabel>
+      <content src="content.html#book_8"/>
+    </navPoint>
+    <navPoint id="book_9" playOrder="10">
+      <navLabel>
+        <text>Podmiot spotkania - Człowiek</text>
+      </navLabel>
+      <content src="content.html#book_9"/>
+    </navPoint>
+    <navPoint id="book_10" playOrder="11">
+      <navLabel>
+        <text>Relacja poznania jako skutek spotkania</text>
+      </navLabel>
+      <content src="content.html#book_10"/>
+    </navPoint>
+    <navPoint id="book_11" playOrder="12">
+      <navLabel>
+        <text>Relacja postępowania jako przejście ze spotkania do obecności</text>
+      </navLabel>
+      <content src="content.html#book_11"/>
+    </navPoint>
+    <navPoint id="book_12" playOrder="13">
+      <navLabel>
+        <text>Metody i struktura metafizyki</text>
+      </navLabel>
+      <content src="content.html#book_12"/>
+    </navPoint>
+    <navPoint id="book_13" playOrder="14">
+      <navLabel>
+        <text>Z dziejów metafizyki</text>
+      </navLabel>
+      <content src="content.html#book_13"/>
+    </navPoint>
+    <navPoint id="book_14" playOrder="15">
+      <navLabel>
+        <text>Słownik terminów</text>
+      </navLabel>
+      <content src="content.html#book_14"/>
+    </navPoint>
+  </navMap>
+</ncx>
