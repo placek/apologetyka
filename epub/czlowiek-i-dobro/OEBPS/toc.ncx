@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:b0aefdbe-baa7-11e9-86d3-3fa3370350d6"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Człowiek i dobro</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="toc1" playOrder=""><navLabel><text>Ujęcia doniosłe i atrakcyjne (przedmowa)</text></navLabel><content src="content.html#toc1"/></navPoint>
+    <navPoint id="toc2" playOrder=""><navLabel><text>Wprowadzenie</text></navLabel><content src="content.html#toc2"/></navPoint>
+    <navPoint id="toc3" playOrder=""><navLabel><text>Arystotelesowski schemat życia moralnego</text></navLabel><content src="content.html#toc3"/></navPoint>
+    <navPoint id="toc4" playOrder=""><navLabel><text>Tomistyczna interpretacja etyki Arystotelesowskiej</text></navLabel><content src="content.html#toc4"/></navPoint>
+    <navPoint id="toc5" playOrder=""><navLabel><text>Osoba podmiotem życia moralnego</text></navLabel><content src="content.html#toc5"/></navPoint>
+    <navPoint id="toc6" playOrder=""><navLabel><text>Koncepcja prawa naturalnego</text></navLabel><content src="content.html#toc6"/></navPoint>
+    <navPoint id="toc7" playOrder=""><navLabel><text>Miłość i mądrość jako podstawy etyki</text></navLabel><content src="content.html#toc7"/></navPoint>
+    <navPoint id="toc8" playOrder=""><navLabel><text>Sumienie jako podmiotowa norma moralności</text></navLabel><content src="content.html#toc8"/></navPoint>
+    <navPoint id="toc9" playOrder=""><navLabel><text>Problem dobra i zła</text></navLabel><content src="content.html#toc9"/></navPoint>
+    <navPoint id="toc10" playOrder=""><navLabel><text>Tożsamość dobra z bytem</text></navLabel><content src="content.html#toc10"/></navPoint>
+    <navPoint id="toc11" playOrder=""><navLabel><text>„Dobre życie” jako istota dobra moralnego</text></navLabel><content src="content.html#toc11"/></navPoint>
+    <navPoint id="toc12" playOrder=""><navLabel><text>Zło jako brak dobra</text></navLabel><content src="content.html#toc12"/></navPoint>
+    <navPoint id="toc13" playOrder=""><navLabel><text>Zło moralne jako niedomaganie rozumności w ludzkim postępowaniu</text></navLabel><content src="content.html#toc13"/></navPoint>
+    <navPoint id="toc14" playOrder=""><navLabel><text>Problematyka roztropności</text></navLabel><content src="content.html#toc14"/></navPoint>
+    <navPoint id="toc15" playOrder=""><navLabel><text>Istota roztropności</text></navLabel><content src="content.html#toc15"/></navPoint>
+    <navPoint id="toc16" playOrder=""><navLabel><text>Składniki roztropności</text></navLabel><content src="content.html#toc16"/></navPoint>
+    <navPoint id="toc17" playOrder=""><navLabel><text>Problematyka sprawiedliwości i cnót społecznych</text></navLabel><content src="content.html#toc17"/></navPoint>
+    <navPoint id="toc18" playOrder=""><navLabel><text>Istota sprawiedliwości</text></navLabel><content src="content.html#toc18"/></navPoint>
+    <navPoint id="toc19" playOrder=""><navLabel><text>Cnoty społeczne</text></navLabel><content src="content.html#toc19"/></navPoint>
+    <navPoint id="toc20" playOrder=""><navLabel><text>Problematyka męstwa</text></navLabel><content src="content.html#toc20"/></navPoint>
+    <navPoint id="toc21" playOrder=""><navLabel><text>Istota męstwa</text></navLabel><content src="content.html#toc21"/></navPoint>
+    <navPoint id="toc22" playOrder=""><navLabel><text>„Części” męstwa</text></navLabel><content src="content.html#toc22"/></navPoint>
+    <navPoint id="toc23" playOrder=""><navLabel><text>Problematyka umiarkowania</text></navLabel><content src="content.html#toc23"/></navPoint>
+    <navPoint id="toc24" playOrder=""><navLabel><text>Istota umiarkowania</text></navLabel><content src="content.html#toc24"/></navPoint>
+    <navPoint id="toc25" playOrder=""><navLabel><text>Pedagogika jako konsekwencja etyki</text></navLabel><content src="content.html#toc25"/></navPoint>
+    <navPoint id="toc26" playOrder=""><navLabel><text>Etyki zawodowe jako syntezy filozofii moralnej i pedagogiki</text></navLabel><content src="content.html#toc26"/></navPoint>
+    <navPoint id="toc27" playOrder=""><navLabel><text>Trudny problem wolności</text></navLabel><content src="content.html#toc27"/></navPoint>
+    <navPoint id="toc28" playOrder=""><navLabel><text>Wolność, czy rozumność?</text></navLabel><content src="content.html#toc28"/></navPoint>
+    <navPoint id="toc29" playOrder=""><navLabel><text>Wolność, czy konieczność?</text></navLabel><content src="content.html#toc29"/></navPoint>
+    <navPoint id="toc30" playOrder=""><navLabel><text>Wolność, czy niezależność?</text></navLabel><content src="content.html#toc30"/></navPoint>
+    <navPoint id="toc31" playOrder=""><navLabel><text>Wolność, czy miłość?</text></navLabel><content src="content.html#toc31"/></navPoint>
+    <navPoint id="toc32" playOrder=""><navLabel><text>Zakończenie</text></navLabel><content src="content.html#toc32"/></navPoint>
+  </navMap>
+</ncx>

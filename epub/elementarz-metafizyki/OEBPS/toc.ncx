@@ -2,7 +2,7 @@
 <!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
 <ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
   <head>
-    <meta name="dtb:uid" content="urn:uuid:71ae52bf-3ad9-4b40-a123-5198d6ae9755"/>
+    <meta name="dtb:uid" content="urn:uuid:ADD10187-2BF5-4C18-B4B0-A8ED7E4C5AB7"/>
     <meta name="dtb:depth" content="1"/>
     <meta name="dtb:totalPageCount" content="0"/>
     <meta name="dtb:maxPageNumber" content="0"/>
@@ -11,95 +11,93 @@
     <text>Elementarz metafizyki</text>
   </docTitle>
   <navMap>
-    <navPoint id="book" playOrder="1">
-      <navLabel>
-        <text>Elementarz metafizyki</text>
-      </navLabel>
-      <content src="content.html"/>
-    </navPoint>
-    <navPoint id="book_1" playOrder="2">
-      <navLabel>
-        <text>Przedmowa</text>
-      </navLabel>
-      <content src="content.html#book_1"/>
-    </navPoint>
-    <navPoint id="book_2" playOrder="3">
-      <navLabel>
-        <text>Spotkanie źródłem poznania i przedmiotu nauk</text>
-      </navLabel>
-      <content src="content.html#book_2"/>
-    </navPoint>
-    <navPoint id="book_3" playOrder="4">
-      <navLabel>
-        <text>Byt z pozycji spotkania i poznania</text>
-      </navLabel>
-      <content src="content.html#book_3"/>
-    </navPoint>
-    <navPoint id="book_4" playOrder="5">
-      <navLabel>
-        <text>Byt w aspekcie przyczyn</text>
-      </navLabel>
-      <content src="content.html#book_4"/>
-    </navPoint>
-    <navPoint id="book_5" playOrder="6">
-      <navLabel>
-        <text>Transcendentalne własności bytu i pierwsze zasady</text>
-      </navLabel>
-      <content src="content.html#book_5"/>
-    </navPoint>
-    <navPoint id="book_6" playOrder="7">
-      <navLabel>
-        <text>Relacje</text>
-      </navLabel>
-      <content src="content.html#book_6"/>
-    </navPoint>
-    <navPoint id="book_7" playOrder="8">
-      <navLabel>
-        <text>Dominujący w bycie akt istnienia</text>
-      </navLabel>
-      <content src="content.html#book_7"/>
-    </navPoint>
-    <navPoint id="book_8" playOrder="9">
-      <navLabel>
-        <text>Istnienie samoistne - Bóg</text>
-      </navLabel>
-      <content src="content.html#book_8"/>
-    </navPoint>
-    <navPoint id="book_9" playOrder="10">
-      <navLabel>
-        <text>Podmiot spotkania - Człowiek</text>
-      </navLabel>
-      <content src="content.html#book_9"/>
-    </navPoint>
-    <navPoint id="book_10" playOrder="11">
-      <navLabel>
-        <text>Relacja poznania jako skutek spotkania</text>
-      </navLabel>
-      <content src="content.html#book_10"/>
-    </navPoint>
-    <navPoint id="book_11" playOrder="12">
-      <navLabel>
-        <text>Relacja postępowania jako przejście ze spotkania do obecności</text>
-      </navLabel>
-      <content src="content.html#book_11"/>
-    </navPoint>
-    <navPoint id="book_12" playOrder="13">
-      <navLabel>
-        <text>Metody i struktura metafizyki</text>
-      </navLabel>
-      <content src="content.html#book_12"/>
-    </navPoint>
-    <navPoint id="book_13" playOrder="14">
-      <navLabel>
-        <text>Z dziejów metafizyki</text>
-      </navLabel>
-      <content src="content.html#book_13"/>
-    </navPoint>
-    <navPoint id="book_14" playOrder="15">
-      <navLabel>
-        <text>Słownik terminów</text>
-      </navLabel>
-      <content src="content.html#book_14"/>
-    </navPoint>
+    <navPoint id="toc1" playOrder="1"><navLabel><text>Przedmowa</text></navLabel><content src="content.html#toc1"/></navPoint>
+    <navPoint id="toc2" playOrder="2"><navLabel><text>Spotkanie źródłem poznania i przedmiotu nauk</text></navLabel><content src="content.html#toc2"/></navPoint>
+    <navPoint id="toc3" playOrder="3"><navLabel><text>Mowa serca jako bytowy skutek spotkania</text></navLabel><content src="content.html#toc3"/></navPoint>
+    <navPoint id="toc4" playOrder="4"><navLabel><text>Uwyraźnianie się przedmiotu nauk</text></navLabel><content src="content.html#toc4"/></navPoint>
+    <navPoint id="toc5" playOrder="5"><navLabel><text>Byt z pozycji spotkania i poznania</text></navLabel><content src="content.html#toc5"/></navPoint>
+    <navPoint id="toc6" playOrder="6"><navLabel><text>Mowa serca jako doświadczenie bytu</text></navLabel><content src="content.html#toc6"/></navPoint>
+    <navPoint id="toc7" playOrder="7"><navLabel><text>Istotowe pryncypia bytu (forma jako akt i materia jako możność)</text></navLabel><content src="content.html#toc7"/></navPoint>
+    <navPoint id="toc8" playOrder="8"><navLabel><text>Niepełna istota (quidditas) i pełna istota (subsystencja)</text></navLabel><content src="content.html#toc8"/></navPoint>
+    <navPoint id="toc9" playOrder="9"><navLabel><text>Wewnętrzny w bycie akt istnienia</text></navLabel><content src="content.html#toc9"/></navPoint>
+    <navPoint id="toc10" playOrder="10"><navLabel><text>Dwa sposoby zidentyfikowania w bycie aktu istnienia</text></navLabel><content src="content.html#toc10"/></navPoint>
+    <navPoint id="toc11" playOrder="11"><navLabel><text>Wykluczenie krążenia pryncypiów i wiedzy podczas spotkania bytu z intelektem (reditio i gnoza)</text></navLabel><content src="content.html#toc11"/></navPoint>
+    <navPoint id="toc12" playOrder="12"><navLabel><text>Byt w aspekcie przyczyn</text></navLabel><content src="content.html#toc12"/></navPoint>
+    <navPoint id="toc13" playOrder="13"><navLabel><text>Wewnętrzne przyczyny bytu (istnienie jako akt i istota jako możność)</text></navLabel><content src="content.html#toc13"/></navPoint>
+    <navPoint id="toc14" playOrder="14"><navLabel><text>Ujęcie strukturalne</text></navLabel><content src="content.html#toc14"/></navPoint>
+    <navPoint id="toc15" playOrder="15"><navLabel><text>Ujęcie genetyczne</text></navLabel><content src="content.html#toc15"/></navPoint>
+    <navPoint id="toc16" playOrder="16"><navLabel><text>Zewnętrzne przyczyny bytu</text></navLabel><content src="content.html#toc16"/></navPoint>
+    <navPoint id="toc17" playOrder="17"><navLabel><text>Samoistny akt istnienia przyczyną sprawczą zależnych aktów istnienia</text></navLabel><content src="content.html#toc17"/></navPoint>
+    <navPoint id="toc18" playOrder="18"><navLabel><text>Substancje przyczynami celowymi istoty bytów</text></navLabel><content src="content.html#toc18"/></navPoint>
+    <navPoint id="toc19" playOrder="19"><navLabel><text>Transcendentalne własności bytu i pierwsze zasady</text></navLabel><content src="content.html#toc19"/></navPoint>
+    <navPoint id="toc20" playOrder="20"><navLabel><text>Poznawcza kolejność transcendentaliów</text></navLabel><content src="content.html#toc20"/></navPoint>
+    <navPoint id="toc21" playOrder="21"><navLabel><text>Odrębność bytu</text></navLabel><content src="content.html#toc21"/></navPoint>
+    <navPoint id="toc22" playOrder="22"><navLabel><text>Jedność bytu</text></navLabel><content src="content.html#toc22"/></navPoint>
+    <navPoint id="toc23" playOrder="23"><navLabel><text>Realność bytu</text></navLabel><content src="content.html#toc23"/></navPoint>
+    <navPoint id="toc24" playOrder="24"><navLabel><text>Pryncypia bytu a pierwsze zasady wyrażające transcendentalia</text></navLabel><content src="content.html#toc24"/></navPoint>
+    <navPoint id="toc25" playOrder="25"><navLabel><text>Prawda jako własność bytu</text></navLabel><content src="content.html#toc25"/></navPoint>
+    <navPoint id="toc26" playOrder="26"><navLabel><text>Dobro jako własność bytu</text></navLabel><content src="content.html#toc26"/></navPoint>
+    <navPoint id="toc27" playOrder="27"><navLabel><text>Piękno jako własność bytu</text></navLabel><content src="content.html#toc27"/></navPoint>
+    <navPoint id="toc28" playOrder="28"><navLabel><text>Zamienność bytu z transcendentaliami</text></navLabel><content src="content.html#toc28"/></navPoint>
+    <navPoint id="toc29" playOrder="29"><navLabel><text>Relacje</text></navLabel><content src="content.html#toc29"/></navPoint>
+    <navPoint id="toc30" playOrder="30"><navLabel><text>Budowa relacji</text></navLabel><content src="content.html#toc30"/></navPoint>
+    <navPoint id="toc31" playOrder="31"><navLabel><text>Podział relacji</text></navLabel><content src="content.html#toc31"/></navPoint>
+    <navPoint id="toc32" playOrder="32"><navLabel><text>Relacje transcendentalne</text></navLabel><content src="content.html#toc32"/></navPoint>
+    <navPoint id="toc33" playOrder="33"><navLabel><text>Relacje kategorialne</text></navLabel><content src="content.html#toc33"/></navPoint>
+    <navPoint id="toc34" playOrder="34"><navLabel><text>Istnieniowe relacje sprawcze</text></navLabel><content src="content.html#toc34"/></navPoint>
+    <navPoint id="toc35" playOrder="35"><navLabel><text>Istnieniowe relacje osobowe</text></navLabel><content src="content.html#toc35"/></navPoint>
+    <navPoint id="toc36" playOrder="36"><navLabel><text>Istnieniowe relacje nieosobowe</text></navLabel><content src="content.html#toc36"/></navPoint>
+    <navPoint id="toc37" playOrder="37"><navLabel><text>Relacje istotowe</text></navLabel><content src="content.html#toc37"/></navPoint>
+    <navPoint id="toc38" playOrder="38"><navLabel><text>Dominujący w bycie akt istnienia</text></navLabel><content src="content.html#toc38"/></navPoint>
+    <navPoint id="toc39" playOrder="39"><navLabel><text>Pluralistyczne zidentyfikowanie istnienia</text></navLabel><content src="content.html#toc39"/></navPoint>
+    <navPoint id="toc40" playOrder="40"><navLabel><text>Typy aktów istnienia</text></navLabel><content src="content.html#toc40"/></navPoint>
+    <navPoint id="toc41" playOrder="41"><navLabel><text>Inne koncepcje istnienia</text></navLabel><content src="content.html#toc41"/></navPoint>
+    <navPoint id="toc42" playOrder="42"><navLabel><text>Istnienie samoistne - Bóg</text></navLabel><content src="content.html#toc42"/></navPoint>
+    <navPoint id="toc43" playOrder="43"><navLabel><text>Wykrycie samoistnego aktu istnienia</text></navLabel><content src="content.html#toc43"/></navPoint>
+    <navPoint id="toc44" playOrder="44"><navLabel><text>Struktura samoistnego aktu istnienia</text></navLabel><content src="content.html#toc44"/></navPoint>
+    <navPoint id="toc45" playOrder="45"><navLabel><text>Bóg tożsamy z samoistnym aktem istnienia</text></navLabel><content src="content.html#toc45"/></navPoint>
+    <navPoint id="toc46" playOrder="46"><navLabel><text>Stwarzanie (creatio esse)</text></navLabel><content src="content.html#toc46"/></navPoint>
+    <navPoint id="toc47" playOrder="47"><navLabel><text>Podtrzymywanie bytu w istnieniu (conservatio esse)</text></navLabel><content src="content.html#toc47"/></navPoint>
+    <navPoint id="toc48" playOrder="48"><navLabel><text>Inne koncepcje Boga</text></navLabel><content src="content.html#toc48"/></navPoint>
+    <navPoint id="toc49" playOrder="49"><navLabel><text>Monizm i pluralizm</text></navLabel><content src="content.html#toc49"/></navPoint>
+    <navPoint id="toc50" playOrder="50"><navLabel><text>Podmiot spotkania - Człowiek</text></navLabel><content src="content.html#toc50"/></navPoint>
+    <navPoint id="toc51" playOrder="51"><navLabel><text>Mowa serca drogą do problemu człowieka</text></navLabel><content src="content.html#toc51"/></navPoint>
+    <navPoint id="toc52" playOrder="52"><navLabel><text>Bytowa struktura człowieka</text></navLabel><content src="content.html#toc52"/></navPoint>
+    <navPoint id="toc53" playOrder="53"><navLabel><text>Ujęcie genetyczne stanowiących człowieka przyczyn wewnętrznych</text></navLabel><content src="content.html#toc53"/></navPoint>
+    <navPoint id="toc54" playOrder="54"><navLabel><text>Dusza człowieka</text></navLabel><content src="content.html#toc54"/></navPoint>
+    <navPoint id="toc55" playOrder="55"><navLabel><text>Ciało człowieka</text></navLabel><content src="content.html#toc55"/></navPoint>
+    <navPoint id="toc56" playOrder="56"><navLabel><text>Zewnętrzne i wewnętrzne przyczyny człowieka</text></navLabel><content src="content.html#toc56"/></navPoint>
+    <navPoint id="toc57" playOrder="57"><navLabel><text>Człowiek jako osoba</text></navLabel><content src="content.html#toc57"/></navPoint>
+    <navPoint id="toc58" playOrder="58"><navLabel><text>Godność osoby</text></navLabel><content src="content.html#toc58"/></navPoint>
+    <navPoint id="toc59" playOrder="59"><navLabel><text>Miłość jako relacja osobowa</text></navLabel><content src="content.html#toc59"/></navPoint>
+    <navPoint id="toc60" playOrder="60"><navLabel><text>Wiara jako relacja osobowa</text></navLabel><content src="content.html#toc60"/></navPoint>
+    <navPoint id="toc61" playOrder="61"><navLabel><text>Nadzieja jako relacja osobowa</text></navLabel><content src="content.html#toc61"/></navPoint>
+    <navPoint id="toc62" playOrder="62"><navLabel><text>Humanizm, religia, ciemna noc miłości</text></navLabel><content src="content.html#toc62"/></navPoint>
+    <navPoint id="toc63" playOrder="63"><navLabel><text>Relacja poznania jako skutek spotkania</text></navLabel><content src="content.html#toc63"/></navPoint>
+    <navPoint id="toc64" playOrder="64"><navLabel><text>Poznanie niewyraźne (realne relacje między bytem i intelektem możnościowym)</text></navLabel><content src="content.html#toc64"/></navPoint>
+    <navPoint id="toc65" playOrder="65"><navLabel><text>Poznanie wyraźne (tworzenie wiedzy)</text></navLabel><content src="content.html#toc65"/></navPoint>
+    <navPoint id="toc66" playOrder="66"><navLabel><text>Kontemplacja i mistyka</text></navLabel><content src="content.html#toc66"/></navPoint>
+    <navPoint id="toc67" playOrder="67"><navLabel><text>Uwagi o odmianach metafizyki</text></navLabel><content src="content.html#toc67"/></navPoint>
+    <navPoint id="toc68" playOrder="68"><navLabel><text>Relacja postępowania jako przejście ze spotkania do obecności</text></navLabel><content src="content.html#toc68"/></navPoint>
+    <navPoint id="toc69" playOrder="69"><navLabel><text>Przedmiot etyki</text></navLabel><content src="content.html#toc69"/></navPoint>
+    <navPoint id="toc70" playOrder="70"><navLabel><text>Pryncypia postępowania (sumienie, kontemplacja, mądrość)</text></navLabel><content src="content.html#toc70"/></navPoint>
+    <navPoint id="toc71" playOrder="71"><navLabel><text>Teoria wartości</text></navLabel><content src="content.html#toc71"/></navPoint>
+    <navPoint id="toc72" playOrder="72"><navLabel><text>Metanoia i humanizm kultury</text></navLabel><content src="content.html#toc72"/></navPoint>
+    <navPoint id="toc73" playOrder="73"><navLabel><text>Problem powinności</text></navLabel><content src="content.html#toc73"/></navPoint>
+    <navPoint id="toc74" playOrder="74"><navLabel><text>Metody i struktura metafizyki</text></navLabel><content src="content.html#toc74"/></navPoint>
+    <navPoint id="toc75" playOrder="75"><navLabel><text>Identyfikowanie bytu jako metoda uzyskiwania twierdzeń metafizyki</text></navLabel><content src="content.html#toc75"/></navPoint>
+    <navPoint id="toc76" playOrder="76"><navLabel><text>Szukanie zgodności wiedzy z bytem jako metoda uznawania twierdzeń metafizyki</text></navLabel><content src="content.html#toc76"/></navPoint>
+    <navPoint id="toc77" playOrder="77"><navLabel><text>Krótka historia metod metafizyki</text></navLabel><content src="content.html#toc77"/></navPoint>
+    <navPoint id="toc78" playOrder="78"><navLabel><text>Uwyraźnienie metody identyfikowania i uznawania twierdzeń metafizyki</text></navLabel><content src="content.html#toc78"/></navPoint>
+    <navPoint id="toc79" playOrder="79"><navLabel><text>Kolejność twierdzeń metafizyki</text></navLabel><content src="content.html#toc79"/></navPoint>
+    <navPoint id="toc80" playOrder="80"><navLabel><text>Z dziejów metafizyki</text></navLabel><content src="content.html#toc80"/></navPoint>
+    <navPoint id="toc81" playOrder="81"><navLabel><text>Okres do XX wieku</text></navLabel><content src="content.html#toc81"/></navPoint>
+    <navPoint id="toc82" playOrder="82"><navLabel><text>Powody różnych recepcji myśli św. Tomasza</text></navLabel><content src="content.html#toc82"/></navPoint>
+    <navPoint id="toc83" playOrder="83"><navLabel><text>Tomizm tradycyjny</text></navLabel><content src="content.html#toc83"/></navPoint>
+    <navPoint id="toc84" playOrder="84"><navLabel><text>Tomizm lowański i transcendentalny</text></navLabel><content src="content.html#toc84"/></navPoint>
+    <navPoint id="toc85" playOrder="85"><navLabel><text>Tomizm egzystencjalny i konsekwentny</text></navLabel><content src="content.html#toc85"/></navPoint>
+    <navPoint id="toc86" playOrder="86"><navLabel><text>Problem jednej recepcji myśli św. Tomasza</text></navLabel><content src="content.html#toc86"/></navPoint>
+    <navPoint id="toc87" playOrder="87"><navLabel><text>Uwagi o życiu św. Tomasza</text></navLabel><content src="content.html#toc87"/></navPoint>
+    <navPoint id="toc88" playOrder="88"><navLabel><text>Słownik terminów</text></navLabel><content src="content.html#toc88"/></navPoint>
   </navMap>
 </ncx>

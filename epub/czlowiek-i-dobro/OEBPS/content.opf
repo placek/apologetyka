@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" unique-identifier="bookid" version="2.0">
   <metadata>
-    <dc:title>Elementarz metafizyki</dc:title>
-    <dc:creator>Mieczysław Gogacz</dc:creator>
-    <dc:identifier id="bookid">urn:uuid:ADD10187-2BF5-4C18-B4B0-A8ED7E4C5AB7</dc:identifier>
-    <dc:rights>Copyright © 1998 Mieczysław Gogacz. All rights reserved.</dc:rights>
-    <dc:publisher>Wydawnictwo Veni</dc:publisher>
+    <dc:title>Człowiek i dobro</dc:title>
+    <dc:creator>Artur Andrzejuk</dc:creator>
+    <dc:identifier id="bookid">urn:uuid:b0aefdbe-baa7-11e9-86d3-3fa3370350d6</dc:identifier>
+    <dc:rights>Copyright © 2019 Artur Andrzejuk. All rights reserved.</dc:rights>
     <dc:language>pl-PL</dc:language>
   </metadata>
   <manifest>
