@@ -20,6 +20,7 @@
         padding: 0.5em 1em;
         margin-top: 1em;
         margin-right: 1em;
+        cursor: pointer;
       }
     </style>
     <title>Grecs du roi palette</title>
@@ -262,8 +263,8 @@
 
       <div class="result">
         <span id="resultA">&nbsp;</span>
-        <textarea id="resultB" disabled></textarea>
-        <button id="space">SPACE</button>
+        <textarea id="resultB"></textarea>
+        <button id="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SPACE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
         <button id="backspace">BACKSPACE</button>
         <button id="copy">COPY</button>
       </div>
@@ -288,6 +289,7 @@
           text = b.value + text;
           b.value = text;
           a.innerText = decodeEntities(text);
+          b.scrollTop = b.scrollHeight;
       };
       var removeText = function() {
           var a = document.getElementById('resultA');
