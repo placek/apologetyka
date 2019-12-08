@@ -8,7 +8,6 @@ footer  { margin-top: 1em; font-size: .5em; }
 footer strong { font-family: 'Roboto Mono', monospace; font-size: 2px; color: var(--base1); }
 footer img { display: block; margin: 0 auto; }
 
-
 @media print {
   nav, footer { display: none; }
   body { font-size: .9rem; }
