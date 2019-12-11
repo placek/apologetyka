@@ -9,8 +9,27 @@
     <style>
       article { margin-bottom: 4em; }
       @font-face { font-family: myGreek; src: url(assets/fonts/greek.ttf); }
-      td { text-align: center; font-size: 1.2em; font-family: myGreek; cursor: pointer; border: 1px dotted var(--base1) !important; }
-      td:hover { border: 1px dotted var(--blue) !important; color: var(--blue); }
+      .keyboard {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+      }
+      .keyboard span {
+        text-align: center;
+        font-size: 1.2em;
+        font-family: myGreek;
+        cursor: pointer;
+        border: 1px dotted var(--base1);
+        min-width: 4em;
+        display: inline-block;
+        margin: .5em 0;
+      }
+      .keyboard span:hover {
+        border: 1px dotted var(--blue);
+        color: var(--blue);
+      }
       .result { position: fixed; bottom: 1em; left: 1em; right: 1em; background-color: var(--base3); padding: 1em; border: 1px solid var(--base0); width: auto; }
       .result span { display: block; word-break: break-all; }
       #resultA { color: var(--blue); font-family: myGreek; padding-bottom: 1em; }
@@ -23,6 +42,7 @@
         margin-right: 1em;
         cursor: pointer;
       }
+      .hidden { display: none !important; }
     </style>
     <title>Grecs du roi palette</title>
   </head>
@@ -41,226 +61,717 @@
     </nav>
 
     <article>
-      <h6>BASIC LATIN</h6>
-      <table>
-        <tr><td>&#32;</td><td>&#64;</td><td>&#96;</td></tr>
-        <tr><td>&#33;</td><td>&#65;</td><td>&#97;</td></tr>
-        <tr><td>&#34;</td><td>&#66;</td><td>&#98;</td></tr>
-        <tr><td>&#35;</td><td>&#67;</td><td>&#99;</td></tr>
-        <tr><td>&#36;</td><td>&#68;</td><td>&#100;</td></tr>
-        <tr><td>&#37;</td><td>&#69;</td><td>&#101;</td></tr>
-        <tr><td>&#38;</td><td>&#70;</td><td>&#102;</td></tr>
-        <tr><td>&#39;</td><td>&#71;</td><td>&#103;</td></tr>
-        <tr><td>&#40;</td><td>&#72;</td><td>&#104;</td></tr>
-        <tr><td>&#41;</td><td>&#73;</td><td>&#105;</td></tr>
-        <tr><td>&#42;</td><td>&#74;</td><td>&#106;</td></tr>
-        <tr><td>&#43;</td><td>&#75;</td><td>&#107;</td></tr>
-        <tr><td>&#44;</td><td>&#76;</td><td>&#108;</td></tr>
-        <tr><td>&#45;</td><td>&#77;</td><td>&#109;</td></tr>
-        <tr><td>&#46;</td><td>&#78;</td><td>&#110;</td></tr>
-        <tr><td>&#47;</td><td>&#79;</td><td>&#111;</td></tr>
-        <tr><td>&#48;</td><td>&#80;</td><td>&#112;</td></tr>
-        <tr><td>&#49;</td><td>&#81;</td><td>&#113;</td></tr>
-        <tr><td>&#50;</td><td>&#82;</td><td>&#114;</td></tr>
-        <tr><td>&#51;</td><td>&#83;</td><td>&#115;</td></tr>
-        <tr><td>&#52;</td><td>&#84;</td><td>&#116;</td></tr>
-        <tr><td>&#53;</td><td>&#85;</td><td>&#117;</td></tr>
-        <tr><td>&#54;</td><td>&#86;</td><td>&#118;</td></tr>
-        <tr><td>&#55;</td><td>&#87;</td><td>&#119;</td></tr>
-        <tr><td>&#56;</td><td>&#88;</td><td>&#120;</td></tr>
-        <tr><td>&#57;</td><td>&#89;</td><td>&#121;</td></tr>
-        <tr><td>&#58;</td><td>&#90;</td><td>&#122;</td></tr>
-        <tr><td>&#59;</td><td>&#91;</td><td>&#123;</td></tr>
-        <tr><td>&#60;</td><td>&#92;</td><td>&#124;</td></tr>
-        <tr><td>&#61;</td><td>&#93;</td><td>&#125;</td></tr>
-        <tr><td>&#62;</td><td>&#94;</td><td>&#126;</td></tr>
-        <tr><td>&#63;</td><td>&#95;</td><td>&#127;</td></tr>
-      </table>
-      <h6>LATIN SUPPLEMENT</h6>
-      <table>
-        <tr><td>&#160;</td><td>&#192;</td><td>&#224;</td></tr>
-        <tr><td>&#161;</td><td>&#193;</td><td>&#225;</td></tr>
-        <tr><td>&#162;</td><td>&#194;</td><td>&#226;</td></tr>
-        <tr><td>&#163;</td><td>&#195;</td><td>&#227;</td></tr>
-        <tr><td>&#164;</td><td>&#196;</td><td>&#228;</td></tr>
-        <tr><td>&#165;</td><td>&#197;</td><td>&#229;</td></tr>
-        <tr><td>&#166;</td><td>&#198;</td><td>&#230;</td></tr>
-        <tr><td>&#167;</td><td>&#199;</td><td>&#231;</td></tr>
-        <tr><td>&#168;</td><td>&#200;</td><td>&#232;</td></tr>
-        <tr><td>&#169;</td><td>&#201;</td><td>&#233;</td></tr>
-        <tr><td>&#170;</td><td>&#202;</td><td>&#234;</td></tr>
-        <tr><td>&#171;</td><td>&#203;</td><td>&#235;</td></tr>
-        <tr><td>&#172;</td><td>&#204;</td><td>&#236;</td></tr>
-        <tr><td>&#173;</td><td>&#205;</td><td>&#237;</td></tr>
-        <tr><td>&#174;</td><td>&#206;</td><td>&#238;</td></tr>
-        <tr><td>&#175;</td><td>&#207;</td><td>&#239;</td></tr>
-        <tr><td>&#176;</td><td>&#208;</td><td>&#240;</td></tr>
-        <tr><td>&#177;</td><td>&#209;</td><td>&#241;</td></tr>
-        <tr><td>&#178;</td><td>&#210;</td><td>&#242;</td></tr>
-        <tr><td>&#179;</td><td>&#211;</td><td>&#243;</td></tr>
-        <tr><td>&#180;</td><td>&#212;</td><td>&#244;</td></tr>
-        <tr><td>&#181;</td><td>&#213;</td><td>&#245;</td></tr>
-        <tr><td>&#182;</td><td>&#214;</td><td>&#246;</td></tr>
-        <tr><td>&#183;</td><td>&#215;</td><td>&#247;</td></tr>
-        <tr><td>&#184;</td><td>&#216;</td><td>&#248;</td></tr>
-        <tr><td>&#185;</td><td>&#217;</td><td>&#249;</td></tr>
-        <tr><td>&#186;</td><td>&#218;</td><td>&#250;</td></tr>
-        <tr><td>&#187;</td><td>&#219;</td><td>&#251;</td></tr>
-        <tr><td>&#188;</td><td>&#220;</td><td>&#252;</td></tr>
-        <tr><td>&#189;</td><td>&#221;</td><td>&#253;</td></tr>
-        <tr><td>&#190;</td><td>&#222;</td><td>&#254;</td></tr>
-        <tr><td>&#191;</td><td>&#223;</td><td>&#255;</td></tr>
-      </table>
-      <h6>LATIN EXTENDED A</h6>
-      <table>
-        <tr><td>&#256;</td><td>&#288;</td><td>&#320;</td><td>&#352;</td></tr>
-        <tr><td>&#257;</td><td>&#289;</td><td>&#321;</td><td>&#353;</td></tr>
-        <tr><td>&#258;</td><td>&#290;</td><td>&#322;</td><td>&#354;</td></tr>
-        <tr><td>&#259;</td><td>&#291;</td><td>&#323;</td><td>&#355;</td></tr>
-        <tr><td>&#260;</td><td>&#292;</td><td>&#324;</td><td>&#356;</td></tr>
-        <tr><td>&#261;</td><td>&#293;</td><td>&#325;</td><td>&#357;</td></tr>
-        <tr><td>&#262;</td><td>&#294;</td><td>&#326;</td><td>&#358;</td></tr>
-        <tr><td>&#263;</td><td>&#295;</td><td>&#327;</td><td>&#359;</td></tr>
-        <tr><td>&#264;</td><td>&#296;</td><td>&#328;</td><td>&#360;</td></tr>
-        <tr><td>&#265;</td><td>&#297;</td><td>&#329;</td><td>&#361;</td></tr>
-        <tr><td>&#266;</td><td>&#298;</td><td>&#330;</td><td>&#362;</td></tr>
-        <tr><td>&#267;</td><td>&#299;</td><td>&#331;</td><td>&#363;</td></tr>
-        <tr><td>&#268;</td><td>&#300;</td><td>&#332;</td><td>&#364;</td></tr>
-        <tr><td>&#269;</td><td>&#301;</td><td>&#333;</td><td>&#365;</td></tr>
-        <tr><td>&#270;</td><td>&#302;</td><td>&#334;</td><td>&#366;</td></tr>
-        <tr><td>&#271;</td><td>&#303;</td><td>&#335;</td><td>&#367;</td></tr>
-        <tr><td>&#272;</td><td>&#304;</td><td>&#336;</td><td>&#368;</td></tr>
-        <tr><td>&#273;</td><td>&#305;</td><td>&#337;</td><td>&#369;</td></tr>
-        <tr><td>&#274;</td><td>&#306;</td><td>&#338;</td><td>&#370;</td></tr>
-        <tr><td>&#275;</td><td>&#307;</td><td>&#339;</td><td>&#371;</td></tr>
-        <tr><td>&#276;</td><td>&#308;</td><td>&#340;</td><td>&#372;</td></tr>
-        <tr><td>&#277;</td><td>&#309;</td><td>&#341;</td><td>&#373;</td></tr>
-        <tr><td>&#278;</td><td>&#310;</td><td>&#342;</td><td>&#374;</td></tr>
-        <tr><td>&#279;</td><td>&#311;</td><td>&#343;</td><td>&#375;</td></tr>
-        <tr><td>&#280;</td><td>&#312;</td><td>&#344;</td><td>&#376;</td></tr>
-        <tr><td>&#281;</td><td>&#313;</td><td>&#345;</td><td>&#377;</td></tr>
-        <tr><td>&#282;</td><td>&#314;</td><td>&#346;</td><td>&#378;</td></tr>
-        <tr><td>&#283;</td><td>&#315;</td><td>&#347;</td><td>&#379;</td></tr>
-        <tr><td>&#284;</td><td>&#316;</td><td>&#348;</td><td>&#380;</td></tr>
-        <tr><td>&#285;</td><td>&#317;</td><td>&#349;</td><td>&#381;</td></tr>
-        <tr><td>&#286;</td><td>&#318;</td><td>&#350;</td><td>&#382;</td></tr>
-        <tr><td>&#287;</td><td>&#319;</td><td>&#351;</td><td>&#383;</td></tr>
-      </table>
-      <h6>LATIN EXTENDED B</h6>
-      <table>
-        <tr><td>&#384;</td><td>&#416;</td><td>&#448;</td><td>&#480;</td><td>&#512;</td><td>&#544;</td><td>&#576;</td></tr>
-        <tr><td>&#385;</td><td>&#417;</td><td>&#449;</td><td>&#481;</td><td>&#513;</td><td>&#545;</td><td>&#577;</td></tr>
-        <tr><td>&#386;</td><td>&#418;</td><td>&#450;</td><td>&#482;</td><td>&#514;</td><td>&#546;</td><td>&#578;</td></tr>
-        <tr><td>&#387;</td><td>&#419;</td><td>&#451;</td><td>&#483;</td><td>&#515;</td><td>&#547;</td><td>&#579;</td></tr>
-        <tr><td>&#388;</td><td>&#420;</td><td>&#452;</td><td>&#484;</td><td>&#516;</td><td>&#548;</td><td>&#580;</td></tr>
-        <tr><td>&#389;</td><td>&#421;</td><td>&#453;</td><td>&#485;</td><td>&#517;</td><td>&#549;</td><td>&#581;</td></tr>
-        <tr><td>&#390;</td><td>&#422;</td><td>&#454;</td><td>&#486;</td><td>&#518;</td><td>&#550;</td><td>&#582;</td></tr>
-        <tr><td>&#391;</td><td>&#423;</td><td>&#455;</td><td>&#487;</td><td>&#519;</td><td>&#551;</td><td>&#583;</td></tr>
-        <tr><td>&#392;</td><td>&#424;</td><td>&#456;</td><td>&#488;</td><td>&#520;</td><td>&#552;</td><td>&#584;</td></tr>
-        <tr><td>&#393;</td><td>&#425;</td><td>&#457;</td><td>&#489;</td><td>&#521;</td><td>&#553;</td><td>&#585;</td></tr>
-        <tr><td>&#394;</td><td>&#426;</td><td>&#458;</td><td>&#490;</td><td>&#522;</td><td>&#554;</td><td>&#586;</td></tr>
-        <tr><td>&#395;</td><td>&#427;</td><td>&#459;</td><td>&#491;</td><td>&#523;</td><td>&#555;</td><td>&#587;</td></tr>
-        <tr><td>&#396;</td><td>&#428;</td><td>&#460;</td><td>&#492;</td><td>&#524;</td><td>&#556;</td><td>&#588;</td></tr>
-        <tr><td>&#397;</td><td>&#429;</td><td>&#461;</td><td>&#493;</td><td>&#525;</td><td>&#557;</td><td>&#589;</td></tr>
-        <tr><td>&#398;</td><td>&#430;</td><td>&#462;</td><td>&#494;</td><td>&#526;</td><td>&#558;</td><td>&#590;</td></tr>
-        <tr><td>&#399;</td><td>&#431;</td><td>&#463;</td><td>&#495;</td><td>&#527;</td><td>&#559;</td><td>&#591;</td></tr>
-        <tr><td>&#400;</td><td>&#432;</td><td>&#464;</td><td>&#496;</td><td>&#528;</td><td>&#560;</td><td></td></tr>
-        <tr><td>&#401;</td><td>&#433;</td><td>&#465;</td><td>&#497;</td><td>&#529;</td><td>&#561;</td><td></td></tr>
-        <tr><td>&#402;</td><td>&#434;</td><td>&#466;</td><td>&#498;</td><td>&#530;</td><td>&#562;</td><td></td></tr>
-        <tr><td>&#403;</td><td>&#435;</td><td>&#467;</td><td>&#499;</td><td>&#531;</td><td>&#563;</td><td></td></tr>
-        <tr><td>&#404;</td><td>&#436;</td><td>&#468;</td><td>&#500;</td><td>&#532;</td><td>&#564;</td><td></td></tr>
-        <tr><td>&#405;</td><td>&#437;</td><td>&#469;</td><td>&#501;</td><td>&#533;</td><td>&#565;</td><td></td></tr>
-        <tr><td>&#406;</td><td>&#438;</td><td>&#470;</td><td>&#502;</td><td>&#534;</td><td>&#566;</td><td></td></tr>
-        <tr><td>&#407;</td><td>&#439;</td><td>&#471;</td><td>&#503;</td><td>&#535;</td><td>&#567;</td><td></td></tr>
-        <tr><td>&#408;</td><td>&#440;</td><td>&#472;</td><td>&#504;</td><td>&#536;</td><td>&#568;</td><td></td></tr>
-        <tr><td>&#409;</td><td>&#441;</td><td>&#473;</td><td>&#505;</td><td>&#537;</td><td>&#569;</td><td></td></tr>
-        <tr><td>&#410;</td><td>&#442;</td><td>&#474;</td><td>&#506;</td><td>&#538;</td><td>&#570;</td><td></td></tr>
-        <tr><td>&#411;</td><td>&#443;</td><td>&#475;</td><td>&#507;</td><td>&#539;</td><td>&#571;</td><td></td></tr>
-        <tr><td>&#412;</td><td>&#444;</td><td>&#476;</td><td>&#508;</td><td>&#540;</td><td>&#572;</td><td></td></tr>
-        <tr><td>&#413;</td><td>&#445;</td><td>&#477;</td><td>&#509;</td><td>&#541;</td><td>&#573;</td><td></td></tr>
-        <tr><td>&#414;</td><td>&#446;</td><td>&#478;</td><td>&#510;</td><td>&#542;</td><td>&#574;</td><td></td></tr>
-        <tr><td>&#415;</td><td>&#447;</td><td>&#479;</td><td>&#511;</td><td>&#543;</td><td>&#575;</td><td></td></tr>
-      </table>
-      <h6>Ligatures Not Included in Version Rgreekl 1.0</h6>
-      <table>
-        <tr><td>&#7680;</td><td>&#7696;</td><td>&#7712;</td><td>&#7728;</td></tr>
-        <tr><td>&#7681;</td><td>&#7697;</td><td>&#7713;</td><td>&#7729;</td></tr>
-        <tr><td>&#7682;</td><td>&#7698;</td><td>&#7714;</td><td>&#7730;</td></tr>
-        <tr><td>&#7683;</td><td>&#7699;</td><td>&#7715;</td><td>&#7731;</td></tr>
-        <tr><td>&#7684;</td><td>&#7700;</td><td>&#7716;</td><td>&#7732;</td></tr>
-        <tr><td>&#7685;</td><td>&#7701;</td><td>&#7717;</td><td>&#7733;</td></tr>
-        <tr><td>&#7686;</td><td>&#7702;</td><td>&#7718;</td><td>&#7734;</td></tr>
-        <tr><td>&#7687;</td><td>&#7703;</td><td>&#7719;</td><td>&#7735;</td></tr>
-        <tr><td>&#7688;</td><td>&#7704;</td><td>&#7720;</td><td>&#7736;</td></tr>
-        <tr><td>&#7689;</td><td>&#7705;</td><td>&#7721;</td><td>&#7737;</td></tr>
-        <tr><td>&#7690;</td><td>&#7706;</td><td>&#7722;</td><td>&#7738;</td></tr>
-        <tr><td>&#7691;</td><td>&#7707;</td><td>&#7723;</td><td>&#7739;</td></tr>
-        <tr><td>&#7692;</td><td>&#7708;</td><td>&#7724;</td><td>&#7740;</td></tr>
-        <tr><td>&#7693;</td><td>&#7709;</td><td>&#7725;</td><td>&#7741;</td></tr>
-        <tr><td>&#7694;</td><td>&#7710;</td><td>&#7726;</td><td>&#7742;</td></tr>
-        <tr><td>&#7695;</td><td>&#7711;</td><td>&#7727;</td><td>&#7743;</td></tr>
-        <tr><td>&#7696;</td><td>&#7712;</td><td>&#7728;</td><td>&#7744;</td></tr>
-        <tr><td>&#7697;</td><td>&#7713;</td><td>&#7729;</td><td>&#7745;</td></tr>
-        <tr><td>&#7698;</td><td>&#7714;</td><td>&#7730;</td><td>&#7746;</td></tr>
-      </table>
+      <h6>Du roi</h6>
+      <section class="keyboard">
+        <span class="J">&#181;</span>
+        <span class="J">&#183;</span>
+        <span class="J">&#44;</span>
+        <span class="J">&#45;</span>
+        <span class="J">&#46;</span>
+        <span class="J">&#58;</span>
+        <span class="J">&#59;</span>
+        <span class="J">&#63;</span>
+        <span class="J">&#95;</span>
+        <span class="a">&#161;</span>
+        <span class="a">&#162;</span>
+        <span class="a">&#256;</span>
+        <span class="a">&#257;</span>
+        <span class="a">&#258;</span>
+        <span class="a">&#259;</span>
+        <span class="a">&#260;</span>
+        <span class="a">&#261;</span>
+        <span class="a">&#262;</span>
+        <span class="a">&#263;</span>
+        <span class="a">&#264;</span>
+        <span class="a">&#265;</span>
+        <span class="a">&#266;</span>
+        <span class="a">&#35;</span>
+        <span class="a">&#384;</span>
+        <span class="a">&#385;</span>
+        <span class="a">&#386;</span>
+        <span class="a">&#387;</span>
+        <span class="a">&#388;</span>
+        <span class="a">&#389;</span>
+        <span class="a">&#390;</span>
+        <span class="a">&#391;</span>
+        <span class="a">&#392;</span>
+        <span class="a">&#393;</span>
+        <span class="a">&#394;</span>
+        <span class="a">&#395;</span>
+        <span class="a">&#396;</span>
+        <span class="a">&#567;</span>
+        <span class="a">&#65;</span>
+        <span class="a">&#7680;</span>
+        <span class="a">&#7681;</span>
+        <span class="a">&#7682;</span>
+        <span class="a">&#7747;</span>
+        <span class="a">&#97;</span>
+        <span class="b">&#163;</span>
+        <span class="b">&#397;</span>
+        <span class="b">&#398;</span>
+        <span class="b">&#66;</span>
+        <span class="b">&#98;</span>
+        <span class="c">&#483;</span>
+        <span class="c">&#67;</span>
+        <span class="c">&#7713;</span>
+        <span class="c">&#99;</span>
+        <span class="d">&#100;</span>
+        <span class="d">&#169;</span>
+        <span class="d">&#170;</span>
+        <span class="d">&#171;</span>
+        <span class="d">&#276;</span>
+        <span class="d">&#277;</span>
+        <span class="d">&#278;</span>
+        <span class="d">&#279;</span>
+        <span class="d">&#280;</span>
+        <span class="d">&#281;</span>
+        <span class="d">&#282;</span>
+        <span class="d">&#283;</span>
+        <span class="d">&#415;</span>
+        <span class="d">&#416;</span>
+        <span class="d">&#417;</span>
+        <span class="d">&#418;</span>
+        <span class="d">&#419;</span>
+        <span class="d">&#420;</span>
+        <span class="d">&#421;</span>
+        <span class="d">&#422;</span>
+        <span class="d">&#569;</span>
+        <span class="d">&#570;</span>
+        <span class="d">&#68;</span>
+        <span class="d">&#7687;</span>
+        <span class="d">&#7688;</span>
+        <span class="d">&#7733;</span>
+        <span class="d">&#7742;</span>
+        <span class="e">&#101;</span>
+        <span class="e">&#172;</span>
+        <span class="e">&#174;</span>
+        <span class="e">&#175;</span>
+        <span class="e">&#176;</span>
+        <span class="e">&#177;</span>
+        <span class="e">&#178;</span>
+        <span class="e">&#179;</span>
+        <span class="e">&#284;</span>
+        <span class="e">&#285;</span>
+        <span class="e">&#286;</span>
+        <span class="e">&#423;</span>
+        <span class="e">&#424;</span>
+        <span class="e">&#425;</span>
+        <span class="e">&#426;</span>
+        <span class="e">&#427;</span>
+        <span class="e">&#428;</span>
+        <span class="e">&#429;</span>
+        <span class="e">&#430;</span>
+        <span class="e">&#431;</span>
+        <span class="e">&#432;</span>
+        <span class="e">&#433;</span>
+        <span class="e">&#434;</span>
+        <span class="e">&#435;</span>
+        <span class="e">&#436;</span>
+        <span class="e">&#437;</span>
+        <span class="e">&#438;</span>
+        <span class="e">&#439;</span>
+        <span class="e">&#440;</span>
+        <span class="e">&#441;</span>
+        <span class="e">&#442;</span>
+        <span class="e">&#443;</span>
+        <span class="e">&#444;</span>
+        <span class="e">&#445;</span>
+        <span class="e">&#446;</span>
+        <span class="e">&#69;</span>
+        <span class="e">&#7689;</span>
+        <span class="e">&#7690;</span>
+        <span class="e">&#7691;</span>
+        <span class="e">&#7692;</span>
+        <span class="e">&#7693;</span>
+        <span class="e">&#7694;</span>
+        <span class="e">&#7695;</span>
+        <span class="e">&#7696;</span>
+        <span class="e">&#7697;</span>
+        <span class="e">&#7698;</span>
+        <span class="e">&#7699;</span>
+        <span class="e">&#7700;</span>
+        <span class="e">&#7741;</span>
+        <span class="e">&#7745;</span>
+        <span class="e">&#7746;</span>
+        <span class="f">&#102;</span>
+        <span class="f">&#554;</span>
+        <span class="f">&#555;</span>
+        <span class="f">&#556;</span>
+        <span class="f">&#557;</span>
+        <span class="f">&#70;</span>
+        <span class="f">&#7743;</span>
+        <span class="g">&#103;</span>
+        <span class="g">&#165;</span>
+        <span class="g">&#166;</span>
+        <span class="g">&#168;</span>
+        <span class="g">&#267;</span>
+        <span class="g">&#268;</span>
+        <span class="g">&#269;</span>
+        <span class="g">&#270;</span>
+        <span class="g">&#271;</span>
+        <span class="g">&#272;</span>
+        <span class="g">&#273;</span>
+        <span class="g">&#274;</span>
+        <span class="g">&#275;</span>
+        <span class="g">&#399;</span>
+        <span class="g">&#400;</span>
+        <span class="g">&#403;</span>
+        <span class="g">&#404;</span>
+        <span class="g">&#405;</span>
+        <span class="g">&#406;</span>
+        <span class="g">&#407;</span>
+        <span class="g">&#408;</span>
+        <span class="g">&#409;</span>
+        <span class="g">&#410;</span>
+        <span class="g">&#411;</span>
+        <span class="g">&#412;</span>
+        <span class="g">&#413;</span>
+        <span class="g">&#414;</span>
+        <span class="g">&#568;</span>
+        <span class="g">&#71;</span>
+        <span class="g">&#7683;</span>
+        <span class="g">&#7684;</span>
+        <span class="g">&#7685;</span>
+        <span class="g">&#7686;</span>
+        <span class="g">&#7750;</span>
+        <span class="h">&#104;</span>
+        <span class="h">&#184;</span>
+        <span class="h">&#185;</span>
+        <span class="h">&#36;</span>
+        <span class="h">&#448;</span>
+        <span class="h">&#449;</span>
+        <span class="h">&#72;</span>
+        <span class="h">&#7702;</span>
+        <span class="h">&#7735;</span>
+        <span class="h">&#7744;</span>
+        <span class="i">&#105;</span>
+        <span class="i">&#296;</span>
+        <span class="i">&#454;</span>
+        <span class="i">&#73;</span>
+        <span class="k">&#107;</span>
+        <span class="k">&#186;</span>
+        <span class="k">&#187;</span>
+        <span class="k">&#297;</span>
+        <span class="k">&#298;</span>
+        <span class="k">&#38;</span>
+        <span class="k">&#455;</span>
+        <span class="k">&#456;</span>
+        <span class="k">&#457;</span>
+        <span class="k">&#458;</span>
+        <span class="k">&#459;</span>
+        <span class="k">&#460;</span>
+        <span class="k">&#461;</span>
+        <span class="k">&#462;</span>
+        <span class="k">&#463;</span>
+        <span class="k">&#574;</span>
+        <span class="k">&#575;</span>
+        <span class="k">&#75;</span>
+        <span class="k">&#7703;</span>
+        <span class="k">&#7704;</span>
+        <span class="k">&#7705;</span>
+        <span class="k">&#7706;</span>
+        <span class="k">&#7707;</span>
+        <span class="k">&#7708;</span>
+        <span class="l">&#108;</span>
+        <span class="l">&#188;</span>
+        <span class="l">&#464;</span>
+        <span class="l">&#465;</span>
+        <span class="l">&#466;</span>
+        <span class="l">&#467;</span>
+        <span class="l">&#76;</span>
+        <span class="l">&#7709;</span>
+        <span class="l">&#7710;</span>
+        <span class="l">&#7736;</span>
+        <span class="m">&#109;</span>
+        <span class="m">&#189;</span>
+        <span class="m">&#190;</span>
+        <span class="m">&#191;</span>
+        <span class="m">&#299;</span>
+        <span class="m">&#300;</span>
+        <span class="m">&#301;</span>
+        <span class="m">&#302;</span>
+        <span class="m">&#303;</span>
+        <span class="m">&#304;</span>
+        <span class="m">&#468;</span>
+        <span class="m">&#469;</span>
+        <span class="m">&#470;</span>
+        <span class="m">&#471;</span>
+        <span class="m">&#472;</span>
+        <span class="m">&#473;</span>
+        <span class="m">&#474;</span>
+        <span class="m">&#475;</span>
+        <span class="m">&#476;</span>
+        <span class="m">&#477;</span>
+        <span class="m">&#478;</span>
+        <span class="m">&#479;</span>
+        <span class="m">&#576;</span>
+        <span class="m">&#7711;</span>
+        <span class="m">&#7712;</span>
+        <span class="m">&#77;</span>
+        <span class="n">&#110;</span>
+        <span class="n">&#480;</span>
+        <span class="n">&#481;</span>
+        <span class="n">&#482;</span>
+        <span class="n">&#7751;</span>
+        <span class="n">&#7753;</span>
+        <span class="n">&#7755;</span>
+        <span class="n">&#78;</span>
+        <span class="o">&#111;</span>
+        <span class="o">&#180;</span>
+        <span class="o">&#216;</span>
+        <span class="o">&#217;</span>
+        <span class="o">&#218;</span>
+        <span class="o">&#219;</span>
+        <span class="o">&#220;</span>
+        <span class="o">&#34;</span>
+        <span class="o">&#484;</span>
+        <span class="o">&#485;</span>
+        <span class="o">&#486;</span>
+        <span class="o">&#487;</span>
+        <span class="o">&#488;</span>
+        <span class="o">&#489;</span>
+        <span class="o">&#490;</span>
+        <span class="o">&#491;</span>
+        <span class="o">&#492;</span>
+        <span class="o">&#505;</span>
+        <span class="o">&#7714;</span>
+        <span class="o">&#7715;</span>
+        <span class="o">&#7716;</span>
+        <span class="o">&#79;</span>
+        <span class="o">&#94;</span>
+        <span class="p">&#112;</span>
+        <span class="p">&#221;</span>
+        <span class="p">&#222;</span>
+        <span class="p">&#223;</span>
+        <span class="p">&#224;</span>
+        <span class="p">&#225;</span>
+        <span class="p">&#305;</span>
+        <span class="p">&#306;</span>
+        <span class="p">&#307;</span>
+        <span class="p">&#308;</span>
+        <span class="p">&#309;</span>
+        <span class="p">&#310;</span>
+        <span class="p">&#311;</span>
+        <span class="p">&#312;</span>
+        <span class="p">&#313;</span>
+        <span class="p">&#314;</span>
+        <span class="p">&#315;</span>
+        <span class="p">&#316;</span>
+        <span class="p">&#317;</span>
+        <span class="p">&#493;</span>
+        <span class="p">&#494;</span>
+        <span class="p">&#495;</span>
+        <span class="p">&#496;</span>
+        <span class="p">&#497;</span>
+        <span class="p">&#498;</span>
+        <span class="p">&#499;</span>
+        <span class="p">&#500;</span>
+        <span class="p">&#501;</span>
+        <span class="p">&#502;</span>
+        <span class="p">&#503;</span>
+        <span class="p">&#504;</span>
+        <span class="p">&#577;</span>
+        <span class="p">&#578;</span>
+        <span class="p">&#579;</span>
+        <span class="p">&#7717;</span>
+        <span class="p">&#7718;</span>
+        <span class="p">&#7719;</span>
+        <span class="p">&#7734;</span>
+        <span class="p">&#80;</span>
+        <span class="q">&#113;</span>
+        <span class="q">&#287;</span>
+        <span class="q">&#288;</span>
+        <span class="q">&#289;</span>
+        <span class="q">&#290;</span>
+        <span class="q">&#291;</span>
+        <span class="q">&#292;</span>
+        <span class="q">&#293;</span>
+        <span class="q">&#294;</span>
+        <span class="q">&#295;</span>
+        <span class="q">&#450;</span>
+        <span class="q">&#451;</span>
+        <span class="q">&#452;</span>
+        <span class="q">&#453;</span>
+        <span class="q">&#571;</span>
+        <span class="q">&#572;</span>
+        <span class="q">&#573;</span>
+        <span class="q">&#74;</span>
+        <span class="q">&#81;</span>
+        <span class="r">&#114;</span>
+        <span class="r">&#226;</span>
+        <span class="r">&#227;</span>
+        <span class="r">&#228;</span>
+        <span class="r">&#229;</span>
+        <span class="r">&#230;</span>
+        <span class="r">&#82;</span>
+        <span class="s">&#106;</span>
+        <span class="s">&#115;</span>
+        <span class="s">&#231;</span>
+        <span class="s">&#232;</span>
+        <span class="s">&#233;</span>
+        <span class="s">&#234;</span>
+        <span class="s">&#235;</span>
+        <span class="s">&#236;</span>
+        <span class="s">&#237;</span>
+        <span class="s">&#238;</span>
+        <span class="s">&#239;</span>
+        <span class="s">&#240;</span>
+        <span class="s">&#241;</span>
+        <span class="s">&#242;</span>
+        <span class="s">&#243;</span>
+        <span class="s">&#244;</span>
+        <span class="s">&#318;</span>
+        <span class="s">&#319;</span>
+        <span class="s">&#320;</span>
+        <span class="s">&#321;</span>
+        <span class="s">&#322;</span>
+        <span class="s">&#323;</span>
+        <span class="s">&#324;</span>
+        <span class="s">&#325;</span>
+        <span class="s">&#326;</span>
+        <span class="s">&#327;</span>
+        <span class="s">&#328;</span>
+        <span class="s">&#329;</span>
+        <span class="s">&#330;</span>
+        <span class="s">&#331;</span>
+        <span class="s">&#332;</span>
+        <span class="s">&#333;</span>
+        <span class="s">&#334;</span>
+        <span class="s">&#335;</span>
+        <span class="s">&#336;</span>
+        <span class="s">&#337;</span>
+        <span class="s">&#340;</span>
+        <span class="s">&#341;</span>
+        <span class="s">&#342;</span>
+        <span class="s">&#343;</span>
+        <span class="s">&#344;</span>
+        <span class="s">&#345;</span>
+        <span class="s">&#346;</span>
+        <span class="s">&#347;</span>
+        <span class="s">&#348;</span>
+        <span class="s">&#506;</span>
+        <span class="s">&#507;</span>
+        <span class="s">&#508;</span>
+        <span class="s">&#509;</span>
+        <span class="s">&#510;</span>
+        <span class="s">&#511;</span>
+        <span class="s">&#512;</span>
+        <span class="s">&#513;</span>
+        <span class="s">&#514;</span>
+        <span class="s">&#515;</span>
+        <span class="s">&#516;</span>
+        <span class="s">&#517;</span>
+        <span class="s">&#518;</span>
+        <span class="s">&#519;</span>
+        <span class="s">&#520;</span>
+        <span class="s">&#521;</span>
+        <span class="s">&#522;</span>
+        <span class="s">&#523;</span>
+        <span class="s">&#524;</span>
+        <span class="s">&#525;</span>
+        <span class="s">&#526;</span>
+        <span class="s">&#527;</span>
+        <span class="s">&#528;</span>
+        <span class="s">&#529;</span>
+        <span class="s">&#530;</span>
+        <span class="s">&#531;</span>
+        <span class="s">&#532;</span>
+        <span class="s">&#580;</span>
+        <span class="s">&#581;</span>
+        <span class="s">&#582;</span>
+        <span class="s">&#583;</span>
+        <span class="s">&#584;</span>
+        <span class="s">&#585;</span>
+        <span class="s">&#7720;</span>
+        <span class="s">&#7721;</span>
+        <span class="s">&#7722;</span>
+        <span class="s">&#7737;</span>
+        <span class="s">&#83;</span>
+        <span class="t">&#116;</span>
+        <span class="t">&#198;</span>
+        <span class="t">&#199;</span>
+        <span class="t">&#200;</span>
+        <span class="t">&#201;</span>
+        <span class="t">&#202;</span>
+        <span class="t">&#203;</span>
+        <span class="t">&#204;</span>
+        <span class="t">&#205;</span>
+        <span class="t">&#245;</span>
+        <span class="t">&#246;</span>
+        <span class="t">&#247;</span>
+        <span class="t">&#248;</span>
+        <span class="t">&#249;</span>
+        <span class="t">&#250;</span>
+        <span class="t">&#251;</span>
+        <span class="t">&#349;</span>
+        <span class="t">&#350;</span>
+        <span class="t">&#351;</span>
+        <span class="t">&#354;</span>
+        <span class="t">&#355;</span>
+        <span class="t">&#356;</span>
+        <span class="t">&#357;</span>
+        <span class="t">&#358;</span>
+        <span class="t">&#359;</span>
+        <span class="t">&#360;</span>
+        <span class="t">&#361;</span>
+        <span class="t">&#533;</span>
+        <span class="t">&#534;</span>
+        <span class="t">&#535;</span>
+        <span class="t">&#536;</span>
+        <span class="t">&#537;</span>
+        <span class="t">&#538;</span>
+        <span class="t">&#539;</span>
+        <span class="t">&#540;</span>
+        <span class="t">&#541;</span>
+        <span class="t">&#542;</span>
+        <span class="t">&#543;</span>
+        <span class="t">&#544;</span>
+        <span class="t">&#545;</span>
+        <span class="t">&#546;</span>
+        <span class="t">&#547;</span>
+        <span class="t">&#548;</span>
+        <span class="t">&#586;</span>
+        <span class="t">&#587;</span>
+        <span class="t">&#7723;</span>
+        <span class="t">&#7724;</span>
+        <span class="t">&#7725;</span>
+        <span class="t">&#7726;</span>
+        <span class="t">&#7738;</span>
+        <span class="t">&#7740;</span>
+        <span class="t">&#7748;</span>
+        <span class="t">&#7749;</span>
+        <span class="t">&#84;</span>
+        <span class="u">&#117;</span>
+        <span class="u">&#252;</span>
+        <span class="u">&#253;</span>
+        <span class="u">&#254;</span>
+        <span class="u">&#362;</span>
+        <span class="u">&#363;</span>
+        <span class="u">&#364;</span>
+        <span class="u">&#549;</span>
+        <span class="u">&#550;</span>
+        <span class="u">&#551;</span>
+        <span class="u">&#552;</span>
+        <span class="u">&#553;</span>
+        <span class="u">&#7727;</span>
+        <span class="u">&#7728;</span>
+        <span class="u">&#7729;</span>
+        <span class="u">&#85;</span>
+        <span class="v">&#214;</span>
+        <span class="v">&#215;</span>
+        <span class="w">&#119;</span>
+        <span class="w">&#255;</span>
+        <span class="w">&#37;</span>
+        <span class="w">&#565;</span>
+        <span class="w">&#566;</span>
+        <span class="w">&#87;</span>
+        <span class="x">&#120;</span>
+        <span class="x">&#365;</span>
+        <span class="x">&#366;</span>
+        <span class="x">&#367;</span>
+        <span class="x">&#368;</span>
+        <span class="x">&#369;</span>
+        <span class="x">&#370;</span>
+        <span class="x">&#371;</span>
+        <span class="x">&#558;</span>
+        <span class="x">&#559;</span>
+        <span class="x">&#560;</span>
+        <span class="x">&#561;</span>
+        <span class="x">&#588;</span>
+        <span class="x">&#589;</span>
+        <span class="x">&#590;</span>
+        <span class="x">&#7730;</span>
+        <span class="x">&#7731;</span>
+        <span class="x">&#7732;</span>
+        <span class="x">&#7739;</span>
+        <span class="x">&#88;</span>
+        <span class="y">&#121;</span>
+        <span class="y">&#372;</span>
+        <span class="y">&#373;</span>
+        <span class="y">&#374;</span>
+        <span class="y">&#375;</span>
+        <span class="y">&#562;</span>
+        <span class="y">&#563;</span>
+        <span class="y">&#564;</span>
+        <span class="y">&#591;</span>
+        <span class="y">&#89;</span>
+        <span class="z">&#118;</span>
+        <span class="z">&#122;</span>
+        <span class="z">&#447;</span>
+        <span class="z">&#7701;</span>
+        <span class="z">&#90;</span>
+        <span class="ó">&#124;</span>
+        <span class="ó">&#126;</span>
+        <span class="ó">&#192;</span>
+        <span class="ó">&#193;</span>
+        <span class="ó">&#194;</span>
+        <span class="ó">&#195;</span>
+        <span class="ó">&#196;</span>
+        <span class="ó">&#197;</span>
+        <span class="ó">&#206;</span>
+        <span class="ó">&#207;</span>
+        <span class="ó">&#208;</span>
+        <span class="ó">&#209;</span>
+        <span class="ó">&#210;</span>
+        <span class="ó">&#211;</span>
+        <span class="ó">&#212;</span>
+        <span class="ó">&#213;</span>
+        <span class="ó">&#39;</span>
+        <span class="ó">&#40;</span>
+        <span class="ó">&#41;</span>
+        <span class="ó">&#43;</span>
+        <span class="ó">&#47;</span>
+        <span class="ó">&#61;</span>
+        <span class="ó">&#64;</span>
+        <span class="ó">&#92;</span>
+        <span class="ó">&#96;</span>
+      </section>
 
-      <h6>DIACRITICAL MARKS</h6>
-      <table>
-        <tr><td>&#768;</td><td>&#793;</td><td>&#818;</td><td>&#843;</td><td>&#868;</td></tr>
-        <tr><td>&#769;</td><td>&#794;</td><td>&#819;</td><td>&#844;</td><td>&#869;</td></tr>
-        <tr><td>&#770;</td><td>&#795;</td><td>&#820;</td><td>&#845;</td><td>&#870;</td></tr>
-        <tr><td>&#771;</td><td>&#796;</td><td>&#821;</td><td>&#846;</td><td>&#871;</td></tr>
-        <tr><td>&#772;</td><td>&#797;</td><td>&#822;</td><td>&#847;</td><td>&#872;</td></tr>
-        <tr><td>&#773;</td><td>&#798;</td><td>&#823;</td><td>&#848;</td><td>&#873;</td></tr>
-        <tr><td>&#774;</td><td>&#799;</td><td>&#824;</td><td>&#849;</td><td>&#874;</td></tr>
-        <tr><td>&#775;</td><td>&#800;</td><td>&#825;</td><td>&#850;</td><td>&#875;</td></tr>
-        <tr><td>&#776;</td><td>&#801;</td><td>&#826;</td><td>&#851;</td><td>&#876;</td></tr>
-        <tr><td>&#777;</td><td>&#802;</td><td>&#827;</td><td>&#852;</td><td>&#877;</td></tr>
-        <tr><td>&#778;</td><td>&#803;</td><td>&#828;</td><td>&#853;</td><td>&#878;</td></tr>
-        <tr><td>&#779;</td><td>&#804;</td><td>&#829;</td><td>&#854;</td><td>&#879;</td></tr>
-        <tr><td>&#779;</td><td>&#804;</td><td>&#829;</td><td>&#854;</td><td></td></tr>
-        <tr><td>&#780;</td><td>&#805;</td><td>&#830;</td><td>&#855;</td><td></td></tr>
-        <tr><td>&#781;</td><td>&#806;</td><td>&#831;</td><td>&#856;</td><td></td></tr>
-        <tr><td>&#782;</td><td>&#807;</td><td>&#832;</td><td>&#857;</td><td></td></tr>
-        <tr><td>&#783;</td><td>&#808;</td><td>&#833;</td><td>&#858;</td><td></td></tr>
-        <tr><td>&#784;</td><td>&#809;</td><td>&#834;</td><td>&#859;</td><td></td></tr>
-        <tr><td>&#785;</td><td>&#810;</td><td>&#835;</td><td>&#860;</td><td></td></tr>
-        <tr><td>&#786;</td><td>&#811;</td><td>&#836;</td><td>&#861;</td><td></td></tr>
-        <tr><td>&#787;</td><td>&#812;</td><td>&#837;</td><td>&#862;</td><td></td></tr>
-        <tr><td>&#788;</td><td>&#813;</td><td>&#838;</td><td>&#863;</td><td></td></tr>
-        <tr><td>&#789;</td><td>&#814;</td><td>&#839;</td><td>&#864;</td><td></td></tr>
-        <tr><td>&#790;</td><td>&#815;</td><td>&#840;</td><td>&#865;</td><td></td></tr>
-        <tr><td>&#791;</td><td>&#816;</td><td>&#841;</td><td>&#866;</td><td></td></tr>
-        <tr><td>&#792;</td><td>&#817;</td><td>&#842;</td><td>&#867;</td><td></td></tr>
-      </table>
-
-      <h6>Minuscule- 10th-13th centuries</h6>
-      <table>
-        <tr><td>&#880;</td><td>&#904;</td><td>&#928;</td><td>&#952;</td><td>&#976;</td><td>&#1000;</td></tr>
-        <tr><td>&#881;</td><td>&#905;</td><td>&#929;</td><td>&#953;</td><td>&#977;</td><td>&#1001;</td></tr>
-        <tr><td>&#882;</td><td>&#906;</td><td>&#930;</td><td>&#954;</td><td>&#978;</td><td>&#1002;</td></tr>
-        <tr><td>&#883;</td><td>&#907;</td><td>&#931;</td><td>&#955;</td><td>&#979;</td><td>&#1003;</td></tr>
-        <tr><td>&#884;</td><td>&#908;</td><td>&#932;</td><td>&#956;</td><td>&#980;</td><td>&#1004;</td></tr>
-        <tr><td>&#885;</td><td>&#909;</td><td>&#933;</td><td>&#957;</td><td>&#981;</td><td>&#1005;</td></tr>
-        <tr><td>&#886;</td><td>&#910;</td><td>&#934;</td><td>&#958;</td><td>&#982;</td><td>&#1006;</td></tr>
-        <tr><td>&#887;</td><td>&#911;</td><td>&#935;</td><td>&#959;</td><td>&#983;</td><td>&#1007;</td></tr>
-        <tr><td>&#888;</td><td>&#912;</td><td>&#936;</td><td>&#960;</td><td>&#984;</td><td>&#1008;</td></tr>
-        <tr><td>&#889;</td><td>&#913;</td><td>&#937;</td><td>&#961;</td><td>&#985;</td><td>&#1009;</td></tr>
-        <tr><td>&#890;</td><td>&#914;</td><td>&#938;</td><td>&#962;</td><td>&#986;</td><td>&#1010;</td></tr>
-        <tr><td>&#891;</td><td>&#915;</td><td>&#939;</td><td>&#963;</td><td>&#987;</td><td>&#1011;</td></tr>
-        <tr><td>&#892;</td><td>&#916;</td><td>&#940;</td><td>&#964;</td><td>&#988;</td><td>&#1012;</td></tr>
-        <tr><td>&#893;</td><td>&#917;</td><td>&#941;</td><td>&#965;</td><td>&#989;</td><td>&#1013;</td></tr>
-        <tr><td>&#894;</td><td>&#918;</td><td>&#942;</td><td>&#966;</td><td>&#990;</td><td>&#1014;</td></tr>
-        <tr><td>&#895;</td><td>&#919;</td><td>&#943;</td><td>&#967;</td><td>&#991;</td><td>&#1015;</td></tr>
-        <tr><td>&#896;</td><td>&#920;</td><td>&#944;</td><td>&#968;</td><td>&#992;</td><td>&#1016;</td></tr>
-        <tr><td>&#897;</td><td>&#921;</td><td>&#945;</td><td>&#969;</td><td>&#993;</td><td>&#1017;</td></tr>
-        <tr><td>&#898;</td><td>&#922;</td><td>&#946;</td><td>&#970;</td><td>&#994;</td><td>&#1018;</td></tr>
-        <tr><td>&#899;</td><td>&#923;</td><td>&#947;</td><td>&#971;</td><td>&#995;</td><td>&#1019;</td></tr>
-        <tr><td>&#900;</td><td>&#924;</td><td>&#948;</td><td>&#972;</td><td>&#996;</td><td>&#1020;</td></tr>
-        <tr><td>&#901;</td><td>&#925;</td><td>&#949;</td><td>&#973;</td><td>&#997;</td><td>&#1021;</td></tr>
-        <tr><td>&#902;</td><td>&#926;</td><td>&#950;</td><td>&#974;</td><td>&#998;</td><td>&#1022;</td></tr>
-        <tr><td>&#903;</td><td>&#927;</td><td>&#951;</td><td>&#975;</td><td>&#999;</td><td>&#1023;</td></tr>
-      </table>
+      <h6>Minuscule - 10th-13th centuries</h6>
+      <section class="keyboard">
+        <span class="J">&#1006;</span>
+        <span class="a">&#1011;</span>
+        <span class="a">&#1020;</span>
+        <span class="a">&#882;</span>
+        <span class="a">&#883;</span>
+        <span class="a">&#906;</span>
+        <span class="a">&#912;</span>
+        <span class="a">&#913;</span>
+        <span class="a">&#945;</span>
+        <span class="b">&#886;</span>
+        <span class="b">&#914;</span>
+        <span class="b">&#946;</span>
+        <span class="b">&#976;</span>
+        <span class="c">&#897;</span>
+        <span class="c">&#958;</span>
+        <span class="d">&#888;</span>
+        <span class="d">&#916;</span>
+        <span class="d">&#948;</span>
+        <span class="e">&#1003;</span>
+        <span class="e">&#1005;</span>
+        <span class="e">&#1007;</span>
+        <span class="e">&#1009;</span>
+        <span class="e">&#1010;</span>
+        <span class="e">&#1013;</span>
+        <span class="e">&#889;</span>
+        <span class="e">&#892;</span>
+        <span class="e">&#904;</span>
+        <span class="e">&#907;</span>
+        <span class="e">&#908;</span>
+        <span class="e">&#909;</span>
+        <span class="e">&#910;</span>
+        <span class="e">&#911;</span>
+        <span class="e">&#917;</span>
+        <span class="e">&#949;</span>
+        <span class="e">&#983;</span>
+        <span class="e">&#985;</span>
+        <span class="e">&#996;</span>
+        <span class="f">&#902;</span>
+        <span class="f">&#934;</span>
+        <span class="f">&#943;</span>
+        <span class="f">&#966;</span>
+        <span class="g">&#1001;</span>
+        <span class="g">&#1019;</span>
+        <span class="g">&#1021;</span>
+        <span class="g">&#887;</span>
+        <span class="g">&#915;</span>
+        <span class="g">&#947;</span>
+        <span class="h">&#1004;</span>
+        <span class="h">&#1016;</span>
+        <span class="h">&#1018;</span>
+        <span class="h">&#919;</span>
+        <span class="h">&#951;</span>
+        <span class="h">&#995;</span>
+        <span class="i">&#890;</span>
+        <span class="i">&#921;</span>
+        <span class="i">&#953;</span>
+        <span class="i">&#978;</span>
+        <span class="k">&#1012;</span>
+        <span class="k">&#1015;</span>
+        <span class="k">&#893;</span>
+        <span class="k">&#922;</span>
+        <span class="k">&#944;</span>
+        <span class="k">&#954;</span>
+        <span class="k">&#979;</span>
+        <span class="l">&#894;</span>
+        <span class="l">&#923;</span>
+        <span class="l">&#955;</span>
+        <span class="m">&#1000;</span>
+        <span class="m">&#1014;</span>
+        <span class="m">&#895;</span>
+        <span class="m">&#924;</span>
+        <span class="m">&#956;</span>
+        <span class="n">&#1022;</span>
+        <span class="n">&#896;</span>
+        <span class="n">&#925;</span>
+        <span class="n">&#957;</span>
+        <span class="n">&#993;</span>
+        <span class="o">&#905;</span>
+        <span class="o">&#927;</span>
+        <span class="o">&#959;</span>
+        <span class="o">&#975;</span>
+        <span class="o">&#994;</span>
+        <span class="p">&#898;</span>
+        <span class="p">&#928;</span>
+        <span class="p">&#960;</span>
+        <span class="p">&#992;</span>
+        <span class="q">&#920;</span>
+        <span class="q">&#952;</span>
+        <span class="q">&#977;</span>
+        <span class="q">&#980;</span>
+        <span class="q">&#999;</span>
+        <span class="r">&#899;</span>
+        <span class="r">&#929;</span>
+        <span class="r">&#942;</span>
+        <span class="r">&#961;</span>
+        <span class="s">&#1002;</span>
+        <span class="s">&#1017;</span>
+        <span class="s">&#1023;</span>
+        <span class="s">&#930;</span>
+        <span class="s">&#931;</span>
+        <span class="s">&#939;</span>
+        <span class="s">&#940;</span>
+        <span class="s">&#941;</span>
+        <span class="s">&#962;</span>
+        <span class="s">&#963;</span>
+        <span class="s">&#982;</span>
+        <span class="s">&#986;</span>
+        <span class="s">&#987;</span>
+        <span class="s">&#990;</span>
+        <span class="s">&#991;</span>
+        <span class="s">&#997;</span>
+        <span class="s">&#998;</span>
+        <span class="t">&#900;</span>
+        <span class="t">&#932;</span>
+        <span class="t">&#964;</span>
+        <span class="t">&#970;</span>
+        <span class="t">&#971;</span>
+        <span class="t">&#972;</span>
+        <span class="t">&#973;</span>
+        <span class="t">&#974;</span>
+        <span class="u">&#901;</span>
+        <span class="u">&#933;</span>
+        <span class="u">&#965;</span>
+        <span class="u">&#981;</span>
+        <span class="u">&#988;</span>
+        <span class="u">&#989;</span>
+        <span class="w">&#1008;</span>
+        <span class="w">&#903;</span>
+        <span class="w">&#937;</span>
+        <span class="w">&#938;</span>
+        <span class="w">&#969;</span>
+        <span class="x">&#935;</span>
+        <span class="x">&#967;</span>
+        <span class="y">&#936;</span>
+        <span class="y">&#968;</span>
+        <span class="y">&#984;</span>
+        <span class="z">&#891;</span>
+        <span class="z">&#918;</span>
+        <span class="z">&#926;</span>
+        <span class="z">&#950;</span>
+        <span class="ó">&#884;</span>
+        <span class="ó">&#885;</span>
+      </section>
 
       <div class="result">
         <span id="resultA">&nbsp;</span>
@@ -272,6 +783,12 @@
     </article>
 
     <script>
+      var hideTiles = function(type) {
+        document.querySelectorAll(type).forEach(function(el) { el.classList.add('hidden'); });
+      };
+      var showTiles = function(type) {
+        document.querySelectorAll(type).forEach(function(el) { el.classList.remove('hidden'); });
+      };
       document.getElementById('copy').onclick = function() {
         var copyText = document.getElementById('resultB');
         copyText.select();
@@ -279,9 +796,10 @@
       };
       document.getElementById('space').onclick = function() { placeText('&#32;'); };
       document.getElementById('backspace').onclick = function() { removeText(); };
-      document.querySelectorAll('td').forEach(function(el) {
+      document.querySelectorAll('.keyboard span').forEach(function(el) {
         el.onclick = function() {
           placeText(el.innerText.replace(/[\u0020-\u9999<>\&]/gim, function(i) { return '&#' + i.charCodeAt(0) + ';'; }));
+          showTiles('.keyboard span');
         }
       });
       var placeText = function(text) {
@@ -313,6 +831,19 @@
         }
         return decodeHTMLEntities;
       })();
+      window.addEventListener('keydown', function(e) { if(e.keyCode == 32 && e.target == document.body) { e.preventDefault(); } });
+      document.onkeydown = function(e) {
+        if(e.keyCode === 8) { removeText(); }
+        if(e.keyCode == 32) { placeText('&#32;'); }
+        if(e.keyCode === 27) { showTiles('.keyboard span'); }
+      };
+      document.onkeypress = function(e) {
+        if(e.keyCode == 96) {
+          hideTiles('.keyboard span'); showTiles('.keyboard span.ó')
+        } else {
+          hideTiles('.keyboard span'); showTiles('.keyboard span.' + e.key);
+        }
+      };
     </script>
 
     <footer>
