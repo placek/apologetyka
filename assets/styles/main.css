@@ -10,7 +10,7 @@ footer img { display: block; margin: 0 auto; }
 
 @media print {
   nav, footer { display: none; }
-  body { font-size: .9rem; }
+  body { font-size: 1rem; }
   h2 { page-break-before: always; }
   h2, h3, h4, h5, h6 { page-break-after: avoid; }
 }

@@ -1,4 +1,4 @@
-body { max-width: 30em; }
+body { max-width: 35em; }
 @font-face { font-family: myGreek; src: url(../assets/fonts/greek.ttf); }
 article { padding: 3em 3em 1em 3em; }
 article section { margin: 4em 0 2em 0; font-family: myGreek; text-align: justify; }
