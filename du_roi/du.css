@@ -1,0 +1,20 @@
+body { max-width: 30em; }
+@font-face { font-family: myGreek; src: url(../assets/fonts/greek.ttf); }
+article { padding: 3em 3em 1em 3em; }
+article section { margin: 4em 0 2em 0; font-family: myGreek; text-align: justify; }
+article section span { white-space: nowrap; }
+article section span[data-eusebeios]:before { content: "\E00D"; }
+article section span[data-eusebeios]:after {
+  display: block;
+  float: right;
+  transform: translateX(2.8em);
+  margin-top: .5em;
+  content: attr(data-eusebeios);
+  font-size: .5em;
+}
+.initial { height: 21.5em; float: left; margin-top: -2em; }
+.initial-e { shape-outside: polygon(0% 0%, 100% 0%, 100% 15%, 85% 20%, 70% 40%, 55% 65%, 65% 85%, 40% 100%, 0% 100%); }
+.link { float: right; font-family: myGreek; margin-top: 1.7em; font-size: .7em; }
+.link, .link:visited, .colophon { color: var(--blue); }
+.colophon { float: none; display: block; text-align: center; font-size: 3em; margin: -.5em; }
+
