@@ -9,39 +9,14 @@
     <style>
       body { margin: 1em 1em 11em 1em; max-width: unset; }
       @font-face { font-family: myGreek; src: url(assets/fonts/greek.ttf); }
-      .keyboard {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: stretch;
-      }
-      .keyboard span {
-        text-align: center;
-        font-size: 1.2em;
-        font-family: myGreek;
-        cursor: pointer;
-        border: 1px dotted var(--base1);
-        min-width: 4em;
-        display: inline-block;
-        margin: .5em 0;
-      }
-      .keyboard span:hover {
-        border: 1px dotted var(--blue);
-        color: var(--blue);
-      }
+      .keyboard { display: flex; justify-content: space-around; flex-direction: row; flex-wrap: wrap; align-items: stretch; }
+      .keyboard span { text-align: center; font-size: 1.2em; font-family: myGreek; cursor: pointer; border: 1px dotted var(--base1); min-width: 4em; display: inline-block; margin: .5em 0; }
+      .keyboard span:hover { border: 1px dotted var(--blue); color: var(--blue); }
       .result { position: fixed; bottom: 1em; left: 1em; right: 1em; background-color: var(--base3); padding: 1em; border: 1px solid var(--base0); width: auto; }
       .result span { display: block; word-break: break-all; }
       #resultA { color: var(--blue); font-family: myGreek; padding-bottom: 1em; }
       #resultB { font-family: monospace; width: 100%; background-color: var(--base2); border: none; padding: 0.5em; color: var(--base01); }
-      button {
-        background-color: var(--base2);
-        color: var(--base01);
-        padding: 0.5em 1em;
-        margin-top: 1em;
-        margin-right: 1em;
-        cursor: pointer;
-      }
+      button { background-color: var(--base2); color: var(--base01); padding: 0.5em 1em; margin-top: 1em; margin-right: 1em; cursor: pointer; }
       .hidden { display: none !important; }
     </style>
     <title>Grecs du roi palette</title>
@@ -613,6 +588,16 @@
         <span class="ó">&#64;</span>
         <span class="ó">&#92;</span>
         <span class="ó">&#96;</span>
+        <span class="J">&#9984;</span>
+        <span class="J">&#9985;</span>
+        <span class="J">&#9986;</span>
+        <span class="J">&#9987;</span>
+        <span class="J">&#9988;</span>
+        <span class="J">&#9989;</span>
+        <span class="J">&#9990;</span>
+        <span class="J">&#9991;</span>
+        <span class="J">&#9992;</span>
+        <span class="J">&#9993;</span>
       </section>
 
       <h6>Minuscule - 10th-13th centuries</h6>
@@ -828,6 +813,8 @@
       document.onkeypress = function(e) {
         if(e.keyCode == 96) {
           hideTiles('.keyboard span'); showTiles('.keyboard span.ó')
+        } else if(e.keyCode == 47) {
+          hideTiles('.keyboard span'); showTiles('.keyboard span.J')
         } else {
           hideTiles('.keyboard span'); showTiles('.keyboard span.' + e.key);
         }
