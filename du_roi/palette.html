@@ -9,15 +9,61 @@
     <style>
       body { margin: 1em 1em 11em 1em; max-width: unset; }
       @font-face { font-family: myGreek; src: url(../assets/fonts/greek.ttf); }
-      .keyboard { display: flex; justify-content: space-around; flex-direction: row; flex-wrap: wrap; align-items: stretch; }
-      .keyboard span { text-align: center; font-size: 1.2em; font-family: myGreek; cursor: pointer; border: 1px dotted var(--base1); min-width: 4em; display: inline-block; margin: .5em 0; }
-      .keyboard span:hover { border: 1px dotted var(--blue); color: var(--blue); }
-      .result { position: fixed; bottom: 1em; left: 1em; right: 1em; background-color: var(--base3); padding: 1em; border: 1px solid var(--base0); width: auto; }
-      .result span { display: block; word-break: break-all; }
-      #resultA { color: var(--blue); font-family: myGreek; padding-bottom: 1em; }
-      #resultB { font-family: monospace; width: 100%; background-color: var(--base2); border: none; padding: 0.5em; color: var(--base01); }
-      button { background-color: var(--base2); color: var(--base01); padding: 0.5em 1em; margin-top: 1em; margin-right: 1em; cursor: pointer; }
-      .hidden { display: none !important; }
+      .keyboard {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+      }
+      .keyboard span {
+        text-align: center;
+        font-size: 1.2em;
+        font-family: myGreek;
+        cursor: pointer;
+        border: 1px dotted var(--base1);
+        min-width: 4em;
+        display: inline-block;
+        margin: .5em 0;
+      }
+      .keyboard span:hover {
+        border: 1px dotted var(--blue);
+        color: var(--blue);
+      }
+      .keyboard-control {
+        position: fixed;
+        bottom: 1em;
+        left: 1em;
+        right: 1em;
+        background-color: var(--base3);
+        padding: 1em;
+        border: 1px solid var(--base0);
+        width: auto;
+      }
+      .keyboard-control .preview {
+        color: var(--blue);
+        font-family: myGreek;
+        padding-bottom: 1em;
+      }
+      .keyboard-control .box {
+        font-family: monospace;
+        width: 100%;
+        background-color: var(--base2);
+        border: none;
+        padding: 0.5em;
+        color: var(--base01);
+      }
+      .keyboard-control .space, .keyboard-control .copy, .keyboard-control .backspace {
+        background-color: var(--base2);
+        color: var(--base01);
+        padding: 0.5em 1em;
+        margin-top: 1em;
+        margin-right: 1em;
+        cursor: pointer;
+      }
+      .hidden {
+        display: none !important;
+      }
     </style>
     <title>Grecs du roi palette</title>
   </head>
@@ -26,15 +72,15 @@
     <article>
       <h6>Du roi</h6>
       <section class="keyboard">
-        <span class="J">&#181;</span>
-        <span class="J">&#183;</span>
-        <span class="J">&#44;</span>
-        <span class="J">&#45;</span>
-        <span class="J">&#46;</span>
-        <span class="J">&#58;</span>
-        <span class="J">&#59;</span>
-        <span class="J">&#63;</span>
-        <span class="J">&#95;</span>
+        <span class="custom">&#181;</span>
+        <span class="custom">&#183;</span>
+        <span class="custom">&#44;</span>
+        <span class="custom">&#45;</span>
+        <span class="custom">&#46;</span>
+        <span class="custom">&#58;</span>
+        <span class="custom">&#59;</span>
+        <span class="custom">&#63;</span>
+        <span class="custom">&#95;</span>
         <span class="a">&#161;</span>
         <span class="a">&#162;</span>
         <span class="a">&#256;</span>
@@ -563,46 +609,46 @@
         <span class="z">&#447;</span>
         <span class="z">&#7701;</span>
         <span class="z">&#90;</span>
-        <span class="ó">&#124;</span>
-        <span class="ó">&#126;</span>
-        <span class="ó">&#192;</span>
-        <span class="ó">&#193;</span>
-        <span class="ó">&#194;</span>
-        <span class="ó">&#195;</span>
-        <span class="ó">&#196;</span>
-        <span class="ó">&#197;</span>
-        <span class="ó">&#206;</span>
-        <span class="ó">&#207;</span>
-        <span class="ó">&#208;</span>
-        <span class="ó">&#209;</span>
-        <span class="ó">&#210;</span>
-        <span class="ó">&#211;</span>
-        <span class="ó">&#212;</span>
-        <span class="ó">&#213;</span>
-        <span class="ó">&#39;</span>
-        <span class="ó">&#40;</span>
-        <span class="ó">&#41;</span>
-        <span class="ó">&#43;</span>
-        <span class="ó">&#47;</span>
-        <span class="ó">&#61;</span>
-        <span class="ó">&#64;</span>
-        <span class="ó">&#92;</span>
-        <span class="ó">&#96;</span>
-        <span class="J">&#9984;</span>
-        <span class="J">&#9985;</span>
-        <span class="J">&#9986;</span>
-        <span class="J">&#9987;</span>
-        <span class="J">&#9988;</span>
-        <span class="J">&#9989;</span>
-        <span class="J">&#9990;</span>
-        <span class="J">&#9991;</span>
-        <span class="J">&#9992;</span>
-        <span class="J">&#9993;</span>
+        <span class="accent">&#124;</span>
+        <span class="accent">&#126;</span>
+        <span class="accent">&#192;</span>
+        <span class="accent">&#193;</span>
+        <span class="accent">&#194;</span>
+        <span class="accent">&#195;</span>
+        <span class="accent">&#196;</span>
+        <span class="accent">&#197;</span>
+        <span class="accent">&#206;</span>
+        <span class="accent">&#207;</span>
+        <span class="accent">&#208;</span>
+        <span class="accent">&#209;</span>
+        <span class="accent">&#210;</span>
+        <span class="accent">&#211;</span>
+        <span class="accent">&#212;</span>
+        <span class="accent">&#213;</span>
+        <span class="accent">&#39;</span>
+        <span class="accent">&#40;</span>
+        <span class="accent">&#41;</span>
+        <span class="accent">&#43;</span>
+        <span class="accent">&#47;</span>
+        <span class="accent">&#61;</span>
+        <span class="accent">&#64;</span>
+        <span class="accent">&#92;</span>
+        <span class="accent">&#96;</span>
+        <span class="custom">&#9984;</span>
+        <span class="custom">&#9985;</span>
+        <span class="custom">&#9986;</span>
+        <span class="custom">&#9987;</span>
+        <span class="custom">&#9988;</span>
+        <span class="custom">&#9989;</span>
+        <span class="custom">&#9990;</span>
+        <span class="custom">&#9991;</span>
+        <span class="custom">&#9992;</span>
+        <span class="custom">&#9993;</span>
       </section>
 
       <h6>Minuscule - 10th-13th centuries</h6>
       <section class="keyboard">
-        <span class="J">&#1006;</span>
+        <span class="custom">&#1006;</span>
         <span class="a">&#1011;</span>
         <span class="a">&#1020;</span>
         <span class="a">&#882;</span>
@@ -742,16 +788,16 @@
         <span class="z">&#918;</span>
         <span class="z">&#926;</span>
         <span class="z">&#950;</span>
-        <span class="ó">&#884;</span>
-        <span class="ó">&#885;</span>
+        <span class="accent">&#884;</span>
+        <span class="accent">&#885;</span>
       </section>
 
-      <div class="result">
-        <span id="resultA">&nbsp;</span>
-        <textarea id="resultB"></textarea>
-        <button id="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NB-SPACE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
-        <button id="backspace">BACKSPACE</button>
-        <button id="copy">COPY</button>
+      <div class="keyboard-control">
+        <div class="preview"></div>
+        <textarea class="box"></textarea>
+        <button class="space">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NB-SPACE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+        <button class="backspace">BACKSPACE</button>
+        <button class="copy">COPY</button>
       </div>
     </article>
 

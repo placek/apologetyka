@@ -1,65 +1,67 @@
-var hideTiles = function(type) {
-  document.querySelectorAll(type).forEach(function(el) { el.classList.add('hidden'); });
-};
-var showTiles = function(type) {
-  document.querySelectorAll(type).forEach(function(el) { el.classList.remove('hidden'); });
-};
-document.getElementById('copy').onclick = function() {
-  var copyText = document.getElementById('resultB');
-  copyText.select();
-  document.execCommand('copy');
-};
-document.getElementById('space').onclick = function() { placeText('&#160;'); };
-document.getElementById('backspace').onclick = function() { removeText(); };
-document.querySelectorAll('.keyboard span').forEach(function(el) {
-  el.onclick = function() {
-    placeText(el.innerText.replace(/[\u0020-\u9999<>\&]/gim, function(i) { return '&#' + i.charCodeAt(0) + ';'; }));
-  }
-});
-var placeText = function(text) {
-  var a = document.getElementById('resultA');
-  var b = document.getElementById('resultB');
-  var startPos = b.selectionStart;
-  var endPos = b.selectionEnd;
-  text = b.value.substring(0, startPos) + text + b.value.substring(endPos, b.value.length);
-  b.value = text;
-  a.innerText = decodeEntities(text);
-  b.scrollTop = b.scrollHeight;
-};
-var removeText = function() {
-  var a = document.getElementById('resultA');
-  var b = document.getElementById('resultB');
-  var text = b.value.replace(/&#\d+;$/, '');
-  b.value = text;
-  a.innerText = decodeEntities(text);
-};
-var decodeEntities = (function() {
-  var element = document.createElement('div');
-  function decodeHTMLEntities (str) {
-    if(str && typeof str === 'string') {
-      str = str.replace(/<script[^>]*>([\S\s]*?)<\/script>/gmi, '');
-      str = str.replace(/<\/?\w(?:[^"'>]|"[^"]*"|'[^']*')*>/gmi, '');
-        element.innerHTML = str;
-        str = element.textContent;
-        element.textContent = '';
-      }
-    return str;
-  }
-  return decodeHTMLEntities;
-})();
-window.addEventListener('keydown', function(e) { if(e.keyCode == 32 && e.target == document.body) { e.preventDefault(); } });
-document.onkeydown = function(e) {
-  if(e.keyCode === 8) { removeText(); }
-  if(e.keyCode == 32) { placeText('&#32;'); }
-  if(e.keyCode === 27) { showTiles('.keyboard span'); }
-};
-document.onkeypress = function(e) {
-  if(e.keyCode == 96) {
-    hideTiles('.keyboard span'); showTiles('.keyboard span.ó')
-  } else if(e.keyCode == 47) {
-    hideTiles('.keyboard span'); showTiles('.keyboard span.J')
-  } else {
-    hideTiles('.keyboard span'); showTiles('.keyboard span.' + e.key);
-  }
-};
+(function() {
+  let $options = {
+    accentTileSelector: 'accent',
+    customTileSelector: 'custom',
+    keyTileSelector: '.keyboard span',
+    keyTiles: document.querySelectorAll('.keyboard span'),
+    textPreview: document.querySelector('.keyboard-control .preview'),
+    textBox: document.querySelector('.keyboard-control .box'),
+    copyButton: document.querySelector('.keyboard-control .copy'),
+    spaceButton: document.querySelector('.keyboard-control .space'),
+    backspaceButton: document.querySelector('.keyboard-control .backspace')
+  };
 
+  var hideTiles = function(type) { document.querySelectorAll(type).forEach(function(el) { el.classList.add('hidden'); }); };
+  var showTiles = function(type) { document.querySelectorAll(type).forEach(function(el) { el.classList.remove('hidden'); }); };
+  var decodeEntities = (function() {
+    var element = document.createElement('div');
+    function decodeHTMLEntities (str) {
+      if(str && typeof str === 'string') {
+        str = str.replace(/<script[^>]*>([\S\s]*?)<\/script>/gmi, '');
+        str = str.replace(/<\/?\w(?:[^"'>]|"[^"]*"|'[^']*')*>/gmi, '');
+          element.innerHTML = str;
+          str = element.textContent;
+          element.textContent = '';
+        }
+      return str;
+    }
+    return decodeHTMLEntities;
+  })();
+  var copyText = function() { $options.textBox.select(); document.execCommand('copy'); };
+  var placeText = function(value) {
+    var startPos = $options.textBox.selectionStart;
+    var endPos = $options.textBox.selectionEnd;
+    var text = $options.textBox.value.substring(0, startPos) + value + $options.textBox.value.substring(endPos, $options.textBox.value.length);
+    $options.textBox.value = text;
+    $options.textPreview.innerText = decodeEntities(text);
+    $options.textBox.scrollTop = $options.textBox.scrollHeight;
+  };
+  var removeText = function() {
+    var text = $options.textBox.value.replace(/&#\d+;$/, '');
+    $options.textBox.value = text;
+    $options.textPreview.innerText = decodeEntities(text);
+  };
+  var typeNBSP = function() { placeText('&#160;'); };
+  var typeKey =  function() { placeText(this.innerText.replace(/[\u0020-\u9999<>\&]/gim, function(i) { return '&#' + i.charCodeAt(0) + ';'; })); }
+  var keyboardHandler = function(e) {
+    switch(e.keyCode) {
+      case 8:   removeText(); break;
+      case 32:  if(e.target == document.body) { e.preventDefault(); } placeText('&#32;'); break;
+      case 27:  showTiles($options.keyTileSelector); break;
+      case 192: hideTiles($options.keyTileSelector); showTiles($options.keyTileSelector + '.' + $options.accentTileSelector); break;
+      case 191: hideTiles($options.keyTileSelector); showTiles($options.keyTileSelector + '.' + $options.customTileSelector); break;
+      default:
+        if(e.keyCode >= 65 && e.keyCode <= 90) {
+          hideTiles($options.keyTileSelector);
+          showTiles($options.keyTileSelector + '.' + e.key);
+        }
+        break;
+    }
+  };
+
+  document.onkeydown = keyboardHandler;
+  $options.copyButton.onclick = copyText;
+  $options.spaceButton.onclick = typeNBSP;
+  $options.backspaceButton.onclick = removeText;
+  $options.keyTiles.forEach(function(el) { el.onclick = typeKey; });
+})();
