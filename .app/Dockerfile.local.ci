@@ -1,14 +1,19 @@
-FROM ruby:2.5.0
+FROM ruby:2.6
+ENV LANG C.UTF-8
+ARG BUNDLER_OPTIONS
 
-RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
+RUN apt-get update -qq && apt-get install -y postgresql-client && rm -rf /var/lib/apt/lists/*
 
-RUN mkdir /www
-WORKDIR /www
+WORKDIR /usr/src/app
 
-COPY Gemfile /www/Gemfile
-COPY Gemfile.lock /www/Gemfile.lock
+ADD Gemfile ./Gemfile
+ADD Gemfile.lock ./Gemfile.lock
 
-RUN bundle install
+RUN gem install bundler:2.0.1
+RUN bundle install ${BUNDLER_OPTIONS}
 
-COPY . /www
+COPY . .
 
+CMD bundle exec rackup  --host 0.0.0.0
+
+EXPOSE 3000

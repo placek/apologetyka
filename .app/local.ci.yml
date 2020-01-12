@@ -1,13 +1,12 @@
 version: '3'
 services:
   web:
-    image: apologetyka
     build:
       context: .
       dockerfile: Dockerfile.local.ci
-    command: bundle exec rackup -p 3000 -o 0.0.0.0
-    container_name: apologetyka_web
+      args:
+        BUNDLER_OPTIONS: "--jobs=5"
     volumes:
-      - .:/www
+      - .:/usr/src/app
     ports:
-      - "3000:3000"
+      - "3000:9292"

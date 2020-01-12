@@ -1,6 +1,6 @@
 article table tr td { border: none; text-align: justify; vertical-align: top; }
-article table tr td:last-of-type { border: none; width: 50%; }
-article table tr td:first-of-type { border-right: .5px solid; }
+article table tr td:last-of-type { border: none; width: 50%; padding-left: 2em; }
+article table tr td:first-of-type { border-right: .5px solid; padding-right: 2em; }
 article p { font-size: .8em; margin: .5em auto; color: var(--red); }
 article span { font-size: .8em; color: var(--red); }
 article ul li { font-size: .8em; color: var(--red); }
