@@ -3,7 +3,6 @@ services:
   web:
     build:
       context: .
-      dockerfile: Dockerfile.local.ci
       args:
         BUNDLER_OPTIONS: "--jobs=5"
     volumes:
