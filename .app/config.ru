@@ -5,6 +5,7 @@ require 'json'
 require 'roda'
 require 'slim'
 require 'sqlite3'
+require 'arithmos'
 
 Book = Struct.new(:id, :abbr, :names, :description) do
   def initialize(id, abbr, names, description)
@@ -12,9 +13,9 @@ Book = Struct.new(:id, :abbr, :names, :description) do
   end
 end
 
-Verse = Struct.new(:id, :book, :chapter, :verse, :text, :lang, :strong, :morphology, :footnotes, :links, :story, :comment) do
-  def initialize(id, book, chapter, verse, text, lang, strong, morphology, footnotes, links, story, comment)
-    super(id, book, chapter, verse, text, lang, JSON.parse(strong), JSON.parse(morphology), JSON.parse(footnotes), JSON.parse(links), story, comment)
+Verse = Struct.new(:id, :book, :chapter, :verse, :text, :lang, :strong, :morphology, :footnotes, :links, :story, :comment, :eusebeios) do
+  def initialize(id, book, chapter, verse, text, lang, strong, morphology, footnotes, links, story, comment, eusebeios)
+    super(id, book, chapter, verse, text, lang, JSON.parse(strong), JSON.parse(morphology), JSON.parse(footnotes), JSON.parse(links), story, comment, (eusebeios ? eusebeios.greek : nil))
   end
 end
 

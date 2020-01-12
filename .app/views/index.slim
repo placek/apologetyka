@@ -13,12 +13,13 @@
       h6= chapter
       table
         - cverses.sort_by(&:verse).group_by(&:verse).each do |verse, verses|
-          - if story = verses.last.story
+          - v = verses.last
+          - if story = v.story
             tr class="story": th colspan="#{@langs.size + 1}" = story
-          - if comment = verses.last.comment
+          - if comment = v.comment
             tr class="comment": td colspan="#{@langs.size + 1}" = comment
 
-          tr class="verse" id="#{chapter}.#{verse}"
+          tr class="verse" id="#{chapter}.#{verse}" data-eusebeios="#{v.eusebeios}"
             - verses.sort_by(&:lang).each do |obj|
               td class="#{obj.lang}"
                 - if obj.strong.empty?

@@ -16,13 +16,16 @@ td.el span:after {
   color: var(--base2);
 }
 tr.verse:before, tr.verse:after {
-  content: counter(chapter) "." counter(verse);
+  content: counter(chapter) "." counter(verse) "\a" attr(data-eusebeios);
   font-size: 0.5em;
-  white-space: nowrap;
+  white-space: pre;
   font-family: 'Roboto Mono', monospace;
   vertical-align: top;
+  display: inline-block;
   color: var(--base1);
 }
+tr.verse:before { text-align: right; }
+tr.verse:after { text-align: left; }
 tr.verse:target span { color: var(--magenta); }
 .footnote, .link {
   font-family: 'Roboto Mono', monospace;
