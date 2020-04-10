@@ -6,7 +6,7 @@ nav li  { display: inline-block; padding-right: 1em; }
 p, li   { text-align: justify; }
 footer  { margin-top: 1em; font-size: .5em; }
 footer strong { font-family: 'Roboto Mono', monospace; font-size: 2px; color: var(--base1); }
-footer img { display: block; margin: 0 auto; }
+footer img { display: block; margin: 0 auto; image-rendering: pixelated; }
 
 @media print {
   nav, footer { display: none; }
