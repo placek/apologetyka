@@ -31,8 +31,3 @@
                   .footnote= footnote
                 - obj.links.each do |link|
                   .link= link
-javascript:
-  (function(selector, destination) {
-    for(let element of document.querySelectorAll(selector)) { element.innerHTML = element.innerHTML.replace(/\b(\d?[A-Z][a-z]{0,2}) (\d+)\.(\d+)(-\d+)?/g, '<a href="' + destination + '$1.html#$2.$3">$1 $2.$3$4</a>');}
-  })('.comment td, .link, .footnote, .description', '');
-

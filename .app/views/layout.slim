@@ -23,9 +23,9 @@ html
     == yield
 
     .langs
-      a class="el" onclick="document.querySelectorAll('.el').forEach(function(el) { el.classList.toggle('hide'); });" EL
-      a class="la" onclick="document.querySelectorAll('.la').forEach(function(el) { el.classList.toggle('hide'); });" LA
-      a class="pl" onclick="document.querySelectorAll('.pl').forEach(function(el) { el.classList.toggle('hide'); });" PL
+      a class="el" EL
+      a class="la" LA
+      a class="pl" PL
 
     footer
       p
@@ -45,3 +45,14 @@ html
         em o. Augustyn Jankowski, ks. Kazimierz Romaniuk, ks. Lech Stachowiak
         | , 1975, PALLOTTINUM
       img src="../assets/logo.gif"
+
+javascript:
+  (function(selector, destination) {
+    for(let element of document.querySelectorAll(selector)) { element.innerHTML = element.innerHTML.replace(/\b(\d?[A-Z][a-z]{0,2}) (\d+)\.(\d+)(-\d+)?/g, '<a href="' + destination + '$1.html#$2.$3">$1 $2.$3$4</a>');}
+  })('.comment td, .link, .footnote, .description', '');
+  (function() {
+    document.querySelectorAll('.verse .el span').forEach(function(e) { e.addEventListener("dblclick", function(w) { window.open("../biblistyka/strong.html#" + w.toElement.dataset.strong, "_blank"); }); });
+    document.querySelector('.langs a.el').addEventListener("click", function(w) { document.querySelectorAll('.el').forEach(function(el) { el.classList.toggle('hide'); }); });;
+    document.querySelector('.langs a.la').addEventListener("click", function(w) { document.querySelectorAll('.la').forEach(function(el) { el.classList.toggle('hide'); }); });;
+    document.querySelector('.langs a.pl').addEventListener("click", function(w) { document.querySelectorAll('.pl').forEach(function(el) { el.classList.toggle('hide'); }); });;
+  })();
