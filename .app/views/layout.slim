@@ -22,6 +22,11 @@ html
 
     == yield
 
+    .langs
+      a class="el" onclick="document.querySelectorAll('.el').forEach(function(el) { el.classList.toggle('hide'); });" EL
+      a class="la" onclick="document.querySelectorAll('.la').forEach(function(el) { el.classList.toggle('hide'); });" LA
+      a class="pl" onclick="document.querySelectorAll('.pl').forEach(function(el) { el.classList.toggle('hide'); });" PL
+
     footer
       p
         a href="https://www.amazon.com/Readers-Greek-New-Testament-Third/dp/0310516803" A Reader’s Greek New Testament: Third Edition

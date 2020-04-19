@@ -1,11 +1,20 @@
-h6:before { content: "Rozdział " }
-h6 { margin: 0 2em; text-align: center; border-top: .5px solid; padding-top: 1em; }
-table { counter-reset: verse; counter-increment: chapter; margin: 1em 0 .4em 0; }
-tr.verse { counter-increment: verse; }
-td span { display: inline-block; }
-td { vertical-align: top; text-align: justify; }
-td.el { width: 50%; }
-td.la, td.pl { width: 25%; }
+h6:before     { content: "Rozdział " }
+h6            { margin: 0 2em; text-align: center; border-top: .5px solid var(--base2); padding-top: 1em; }
+table         { counter-reset: verse; counter-increment: chapter; margin: 1em 0 .4em 0; }
+tr.verse      { counter-increment: verse; }
+td span       { display: inline-block; }
+td            { vertical-align: top; text-align: justify; border-color: var(--base2); }
+.link         { padding-right: 1em; }
+th            { padding: 1em 0; }
+p             { padding: 0 2em; }
+h1            { margin-bottom: 0; }
+header        { margin: 0 2em; }
+a             { display: inline-block; }
+.hide         { display: none; }
+.langs        { position: fixed; z-index: 1; bottom: 1em; right: 1em; background: var(--base3); overflow-x: hidden; padding: .5em; }
+.langs a      { text-decoration: none; font-family: 'Roboto Mono', monospace; cursor: pointer; padding: 0 .5em; }
+.langs a.hide { display: inline; text-decoration: line-through; }
+
 td.el span:after {
   content: attr(data-strong) "\a" attr(data-morphology);
   white-space: pre;
@@ -23,6 +32,7 @@ tr.verse:before, tr.verse:after {
   vertical-align: top;
   display: inline-block;
   color: var(--base1);
+  padding: 0 .5em;
 }
 tr.verse:before { text-align: right; }
 tr.verse:after { text-align: left; }
@@ -40,34 +50,25 @@ tr.verse:target span { color: var(--magenta); }
   font-size: 0.5em;
   padding: 2em 0 2em 3em;
 }
-.link { padding-right: 1em; }
-th { padding: 1em 0; }
-p { padding: 0 2em; }
-h1 { margin-bottom: 0; }
-header { margin: 0 2em; }
-a { display: inline-block; }
 
 @media only screen and (max-width: 700px) {
-  body                { background-color: var(--base3) !important; }
-  td.el span:after    { display: none; }
-  td.el, td.la, td.pl { width: 33%; }
-  .footnote           { display: none; }
-  .link               { display: none; }
+  body             { background-color: var(--base3) !important; }
+  td.el span:after { display: none; }
+  .footnote        { display: none; }
+  .link            { display: none; }
 }
 
 @media only screen and (max-width: 500px) {
-  td.el, td.pl { width: 50%; }
   td.la        { display: none; }
   .comment     { display: none; }
   .description { display: none; }
 }
 
 @media only print {
-  body                { background-color: #fff !important; }
-  td.el, td.pl, td.la { width: 33%; }
-  td.el span:after    { display: none; }
-  .footnote           { display: none; }
-  .link               { display: none; }
-  .comment            { display: none; }
-  .description        { display: none; }
+  body             { background-color: #fff !important; }
+  td.el span:after { display: none; }
+  .footnote        { display: none; }
+  .link            { display: none; }
+  .comment         { display: none; }
+  .description     { display: none; }
 }
