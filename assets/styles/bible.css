@@ -4,12 +4,12 @@ table         { counter-reset: verse; counter-increment: chapter; margin: 1em 0 
 tr.verse      { counter-increment: verse; }
 td span       { display: inline-block; }
 td            { vertical-align: top; text-align: justify; border-color: var(--base2); }
-.link         { padding-right: 1em; }
 th            { padding: 1em 0; }
 p             { padding: 0 2em; }
 h1            { margin-bottom: 0; }
 header        { margin: 0 2em; }
 a             { display: inline-block; }
+.link         { padding-right: 1em; }
 .hide         { display: none; }
 .langs        { position: fixed; z-index: 1; bottom: 1em; right: 1em; background: var(--base3); overflow-x: hidden; padding: .5em; }
 .langs a      { text-decoration: none; font-family: 'Roboto Mono', monospace; cursor: pointer; padding: 0 .5em; }
@@ -71,4 +71,5 @@ tr.verse:target span { color: var(--magenta); }
   .link            { display: none; }
   .comment         { display: none; }
   .description     { display: none; }
+  .langs           { display: none; }
 }
