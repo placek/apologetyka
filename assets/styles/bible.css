@@ -1,3 +1,6 @@
+@font-face { font-family: greek; src: url(../fonts/newathu.ttf); }
+@font-face { font-family: iosevka; src: url(../fonts/iosevka.ttf); }
+
 h6:before     { content: "Rozdział " }
 h6            { margin: 0 2em; text-align: center; border-top: .5px solid var(--base2); padding-top: 1em; }
 table         { counter-reset: verse; counter-increment: chapter; margin: 1em 0 .4em 0; }
@@ -12,14 +15,15 @@ a             { display: inline-block; }
 .link         { padding-right: 1em; }
 .hide         { display: none; }
 .langs        { position: fixed; z-index: 1; bottom: 1em; right: 1em; background: var(--base3); overflow-x: hidden; padding: .5em; }
-.langs a      { text-decoration: none; font-family: 'Roboto Mono', monospace; cursor: pointer; padding: 0 .5em; }
+.langs a      { text-decoration: none; font-family: iosevka; cursor: pointer; padding: 0 .5em; }
 .langs a.hide { display: inline; text-decoration: line-through; }
 
+td.el span, header h1 { font-family: greek; }
 td.el span:after {
   content: attr(data-strong) "\a" attr(data-morphology);
   white-space: pre;
   font-size: 0.5em;
-  font-family: 'Roboto Mono', monospace;
+  font-family: iosevka;
   padding: 0 0.1em;
   display: inline-block;
   color: var(--base2);
@@ -28,7 +32,7 @@ tr.verse:before, tr.verse:after {
   content: counter(chapter) "." counter(verse) "\a" attr(data-eusebeios);
   font-size: 0.5em;
   white-space: pre;
-  font-family: 'Roboto Mono', monospace;
+  font-family: iosevka;
   vertical-align: top;
   display: inline-block;
   color: var(--base1);
@@ -38,14 +42,14 @@ tr.verse:before { text-align: right; }
 tr.verse:after { text-align: left; }
 tr.verse:target span { color: var(--magenta); }
 .footnote, .link {
-  font-family: 'Roboto Mono', monospace;
+  font-family: iosevka;
   color: var(--base1);
   font-size: 0.5em;
   text-align: left;
 }
 .comment td {
   border: none;
-  font-family: 'Roboto Mono', monospace;
+  font-family: iosevka;
   color: var(--base1);
   font-size: 0.5em;
   padding: 2em 0 2em 3em;
