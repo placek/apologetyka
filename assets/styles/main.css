@@ -7,9 +7,11 @@ p, li   { text-align: justify; }
 footer  { margin-top: 1em; font-size: .5em; }
 footer strong { font-family: 'Roboto Mono', monospace; font-size: 2px; color: var(--base1); }
 footer img { display: block; margin: 0 auto; image-rendering: pixelated; }
+h1 sup { font-family: 'Roboto Mono', monospace; font-size: .3em; }
 
 @media print {
   nav, footer { display: none; }
+  h1 sup { display: none; }
   body { font-size: 1rem; }
   h2 { page-break-before: always; }
   h2, h3, h4, h5, h6 { page-break-after: avoid; }
