@@ -1,10 +1,15 @@
 version: '3.7'
 services:
   web:
-    image: malinowy-placek.dhcp.office.binarapps.com:5000/apologetyka:latest
     build:
       context: .
       dockerfile: Dockerfile
     container_name: apologetyka_web
-    ports:
-      - '8080:80'
+    environment:
+      - VIRTUAL_HOST=apologetyka.placki.cloud
+    networks:
+      - nginx-proxy_net
+
+networks:
+  nginx-proxy_net:
+    external: true

@@ -65,7 +65,6 @@ tr.verse:target span { color: var(--magenta); }
 @media only screen and (max-width: 500px) {
   td.la        { display: none; }
   .comment     { display: none; }
-  .description { display: none; }
 }
 
 @media only print {
@@ -74,6 +73,5 @@ tr.verse:target span { color: var(--magenta); }
   .footnote        { display: none; }
   .link            { display: none; }
   .comment         { display: none; }
-  .description     { display: none; }
   .langs           { display: none; }
 }
