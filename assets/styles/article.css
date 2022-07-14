@@ -2,27 +2,27 @@ body { counter-reset: h2; }
 h2::before, h3::before, h4::before, h5::before, h6::before { color: var(--base2); }
 h2::before {
   counter-increment: h2;
-  content: counter(h2) ". ";
+  content: counter(h2, upper-roman) ". ";
 }
 h2 { counter-reset: h3; }
 h3::before {
   counter-increment: h3;
-  content: counter(h2) "." counter(h3) ". ";
+  content: counter(h2, upper-roman) "." counter(h3, upper-roman) ". ";
 }
 h3 { counter-reset: h4; }
 h4::before {
   counter-increment: h4;
-  content: counter(h2) "." counter(h3) "." counter(h4) ". ";
+  content: counter(h2, upper-roman) "." counter(h3, upper-roman) "." counter(h4, upper-roman) ". ";
 }
 h4 { counter-reset: h5; }
 h5::before {
   counter-increment: h5;
-  content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". ";
+  content: counter(h2, upper-roman) "." counter(h3, upper-roman) "." counter(h4, upper-roman) "." counter(h5, upper-roman) ". ";
 }
 h5 { counter-reset: h6; }
 h6::before {
   counter-increment: h6;
-  content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) ". ";
+  content: counter(h2, upper-roman) "." counter(h3, upper-roman) "." counter(h4, upper-roman) "." counter(h5, upper-roman) "." counter(h6, upper-roman) ". ";
 }
 ol { text-align: justify; }
 ol > li { color: var(--base01); }
