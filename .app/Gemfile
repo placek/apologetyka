@@ -1,7 +1,0 @@
-source 'https://rubygems.org'
-
-gem 'roda'
-gem 'sqlite3'
-gem 'rake'
-gem 'slim'
-gem 'arithmos'
