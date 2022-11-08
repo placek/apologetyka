@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../assets/styles/colors.css">
     <link rel="stylesheet" type="text/css" href="../assets/styles/article.css">
     <title>Hermeneutyka</title>
+    <script src="../assets/js/main.js"></script>
   </head>
 
   <body>
@@ -752,12 +753,6 @@
       </ul>
     </article>
 
-    <script>
-      (function(selector, destination) {
-        for(let element of document.querySelectorAll(selector)) { element.innerHTML = element.innerHTML.replace(/\b(\d?[A-Z][a-z]{0,2}) (\d+)\.(\d+)(-\d+)?/g, '<a href="' + destination + '$1.html#$2.$3">$1 $2.$3$4</a>');}
-      })('p', '../biblia/');
-    </script>
-
     <footer>
       <p>
         <a href="https://biblia.wiara.pl/doc/423229.Interpretacja-Pisma-Swietego">Interpretacja Pisma Świętego</a>
@@ -774,5 +769,6 @@
       </p>
       <img src="../assets/logo.png"/>
     </footer>
+    <script>S.toc(); S.links('p, li', '../biblia');</script>
   </body>
 </html>

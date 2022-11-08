@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/styles/colors.css">
     <link rel="stylesheet" type="text/css" href="./assets/styles/article.css">
     <title>Podstawy dogmatyki katolickiej</title>
+    <script src="assets/js/main.js"></script>
   </head>
 
   <body>
@@ -3371,12 +3372,6 @@
         22, 4-5).</p>
     </article>
 
-    <script>
-      (function(selector, destination) {
-        for(let element of document.querySelectorAll(selector)) { element.innerHTML = element.innerHTML.replace(/\b(\d?[A-Z][a-z]{0,2}) (\d+)\.(\d+)(-\d+)?/g, '<a href="' + destination + '$1.html#$2.$3">$1 $2.$3$4</a>');}
-      })('p, li', 'biblia/');
-    </script>
-
     <footer>
       <p>
         <a href="http://msza.net/i/cz08_0.html">Podstawy dogmatyki katolickiej</a>
@@ -3386,5 +3381,6 @@
       </p>
       <img src="assets/logo.png"/>
     </footer>
+    <script>S.toc(); S.links('p, li', 'biblia');</script>
   </body>
 </html>

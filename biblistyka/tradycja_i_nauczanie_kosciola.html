@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../assets/styles/colors.css">
     <link rel="stylesheet" type="text/css" href="../assets/styles/article.css">
     <title>Tradycja</title>
+    <script src="../assets/js/main.js"></script>
   </head>
 
   <body>
@@ -52,12 +53,6 @@
       <p>Kościół tworzą wszyscy wyznawcy Jezusa Chrystusa. Wszyscy też, w miarę jak sami wierzą, słowem i życiem dają o Nim świadectwo. Decydująca rola przypada w tym biskupom, którzy jako pasterze w Kościele i następcy apostołów są jedynymi autorytatywnymi nauczycielami wiary. Wśród nich szczególne miejsce zajmuje biskup Rzymu, papież, jako następca św. Piotra. Na św. Piotrze jako opoce Chrystus chciał zbudować swój Kościół (Mt 16.18) i św. Piotrowi kazał utwierdzać w wierze swoich braci (Lk 22.32).</p>
     </article>
 
-    <script>
-      (function(selector, destination) {
-        for(let element of document.querySelectorAll(selector)) { element.innerHTML = element.innerHTML.replace(/\b(\d?[A-Z][a-z]{0,2}) (\d+)\.(\d+)(-\d+)?/g, '<a href="' + destination + '$1.html#$2.$3">$1 $2.$3$4</a>');}
-      })('p', '../biblia/');
-    </script>
-
     <footer>
       <p>
         <a href="https://biblia.wiara.pl/doc/423223.Tradycja">Tradycja</a>
@@ -79,5 +74,6 @@
       </p>
       <img src="../assets/logo.png"/>
     </footer>
+    <script>S.toc(); S.links('p, li', '../biblia');</script>
   </body>
 </html>

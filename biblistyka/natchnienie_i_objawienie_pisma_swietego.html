@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../assets/styles/colors.css">
     <link rel="stylesheet" type="text/css" href="../assets/styles/article.css">
     <title>Natchnienie i Objawienie Pisma Świętego</title>
+    <script src="../assets/js/main.js"></script>
   </head>
 
   <body>
@@ -104,12 +105,6 @@
       <p>Jedni z nich - to autorzy ksiąg biblijnych i ci, o których one mówią, jak Mojżesz, prorocy, mędrcy Starego Testamentu, a przede wszystkim sam Jezus Chrystus i Jego uczniowie. Inni - to nasi poprzednicy w wierze (czyli Kościół), którzy przekazywali wiarę kolejnym pokoleniom aż do naszych czasów. Jeszcze inni - to ci, których sami znamy: Kościół dzisiejszy. Wśród nich i ci, którzy swoim świadectwem kształtują naszą wiarę…</p>
     </article>
 
-    <script>
-      (function(selector, destination) {
-        for(let element of document.querySelectorAll(selector)) { element.innerHTML = element.innerHTML.replace(/\b(\d?[A-Z][a-z]{0,2}) (\d+)\.(\d+)(-\d+)?/g, '<a href="' + destination + '$1.html#$2.$3">$1 $2.$3$4</a>');}
-      })('p', '../biblia/');
-    </script>
-
     <footer>
       <p>
         <a href="https://biblia.wiara.pl/doc/423221.Natchnienie-Pisma-Swietego">Natchnienie Pisma Świętego</a>
@@ -137,5 +132,6 @@
       </p>
       <img src="../assets/logo.png"/>
     </footer>
+    <script>S.toc(); S.links('p, li', '../biblia');</script>
   </body>
 </html>

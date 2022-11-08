@@ -9,6 +9,7 @@
     <style>
       li { text-align: justify; }
     </style>
+    <script src="../assets/js/main.js"></script>
   </head>
 
   <body>
@@ -144,17 +145,12 @@
       <p>Św. Paweł tak samo jak św. Ignacy przechodził przez Efez, gdy szedł na męczeństwo, i to było właśnie powodem, dlaczego św. Ignacy wspomina o Pawle; zaś św. Jan nie przechodził przez to miasto, a przeto św. Ignacy nie potrzebował wspominać o nim obok św. Pawła w tem miejscu swego listu. Wszak i św. Polikarp w liście, który do nas doszedł, mówi o św. Pawle, nie wspominając św. Jana; ale biskup ten pisał do Kościoła w Filippach, który został założony przez św. Pawła, a którego św. Jan nigdy nie nawiedzał.</p>
     </article>
 
-    <script>
-      (function(selector, destination) {
-        for(let element of document.querySelectorAll(selector)) { element.innerHTML = element.innerHTML.replace(/\b(\d?[A-Z][a-z]{0,2}) (\d+)\.(\d+)(-\d+)?/g, '<a href="' + destination + '$1.html#$2.$3">$1 $2.$3$4</a>');}
-      })('p', '../biblia/');
-    </script>
-
     <footer>
       <p>
         J. Corluy, hasło: <em>EWANGELIA (Autentyczność  Ewangelii)</em>, w: Słownik Apologetyczny Wiary Katolickiej podług D-ra Jana Jaugey'a, opracowany i wydany staraniem x. Wł. Szcześniaka, Mag. Teol. i grona współpracowników, T. III. Warszawa 1899, s. 230-237.
       </p>
       <img src="../assets/logo.png"/>
     </footer>
+    <script>S.toc(); S.links('p, li', '../biblia');</script>
   </body>
 </html>

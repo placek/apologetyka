@@ -12,6 +12,7 @@
       a { display: inline-block; }
     </style>
     <title>Synopsa</title>
+    <script src="../assets/js/main.js"></script>
   </head>
 
   <body>
@@ -3813,14 +3814,9 @@
       </table>
     </article>
 
-    <script>
-      (function(selector, destination) {
-        for(let element of document.querySelectorAll(selector)) { element.innerHTML = element.innerHTML.replace(/\b(\d?[A-Z][a-z]{0,2}) (\d+)\.(\d+)(-\d+)?/g, '<a href="' + destination + '$1.html#$2.$3">$1 $2.$3$4</a>');}
-      })('td', '../biblia/');
-    </script>
-
     <footer>
       <img src="../assets/logo.png"/>
     </footer>
+    <script>S.toc(); S.links('p, li', '../biblia');</script>
   </body>
 </html>

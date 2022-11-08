@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../assets/styles/colors.css">
     <link rel="stylesheet" type="text/css" href="../assets/styles/article.css">
     <title>Wprowadzenie do filozofii św. Tomasza z Akwinu</title>
+    <script src="../assets/js/main.js"></script>
   </head>
 
   <body>
@@ -294,12 +295,6 @@
       <p>Przestrogi zresztą można mnożyć: wszelkie koncepcje dotyczące nas, ludzi, czy to pedagogiczne, czy społeczne, ekonomiczne i polityczne, u swych podstaw mają - czy się do tego przyznają czy nie - jakieś rozumienie bytu, człowieka, relacji międzyludzkich. Ważne jest, aby te rozumienia były zgodne z faktami, których dotyczą. Jeśli tak nie jest, wtedy owe koncepcje, miast służyć ludziom, stają się narzędziem zniewolenia, unieszczęśliwiają, czy degradują człowieka do roli mechanizmu w strukturze państwa, automatu w procesie produkcji, niekoniecznego elementu kosmosu. Dawniejsza oraz całkiem współczesna historia dowiodła, jak tragiczne w skutkach mogą być tego rodzaju pomyłki.</p>
     </article>
 
-    <script>
-      (function(selector, destination) {
-        for(let element of document.querySelectorAll(selector)) { element.innerHTML = element.innerHTML.replace(/\b(\d?[A-Z][a-z]{0,2}) (\d+)\.(\d+)(-\d+)?/g, '<a href="' + destination + '$1.html#$2.$3">$1 $2.$3$4<\/a>');}
-      })('p', '../biblia/');
-    </script>
-
     <footer>
       <p>
         <a href="http://asza.home.pl/tomizm/?q=node/7">Wprowadzenie do filozofii św. Tomasza z Akwinu</a>
@@ -308,5 +303,6 @@
       </p>
       <img src="../assets/logo.png"/>
     </footer>
+    <script>S.toc(); S.links('p, li', '../biblia');</script>
   </body>
 </html>
