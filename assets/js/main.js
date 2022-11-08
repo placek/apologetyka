@@ -51,3 +51,29 @@ S.links = function(selector, destination) {
     });
   })
 };
+
+S.langs = function() {
+  let langs     = document.createElement('div');
+  let el        = document.createElement('a');
+  let la        = document.createElement('a');
+  let pl        = document.createElement('a');
+  let container = document.querySelector('body');
+
+  langs.classList.add('langs');
+  el.classList.add('el');
+  la.classList.add('la');
+  pl.classList.add('pl');
+
+  el.innerHTML = 'EL';
+  la.innerHTML = 'LA';
+  pl.innerHTML = 'PL';
+
+  el.onclick = function() { document.querySelectorAll('.el').forEach(function(el) { el.classList.toggle('hide'); }) };
+  la.onclick = function() { document.querySelectorAll('.la').forEach(function(el) { el.classList.toggle('hide'); }) };
+  pl.onclick = function() { document.querySelectorAll('.pl').forEach(function(el) { el.classList.toggle('hide'); }) };
+
+  langs.appendChild(el);
+  langs.appendChild(la);
+  langs.appendChild(pl);
+  container.appendChild(langs);
+};

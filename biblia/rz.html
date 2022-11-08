@@ -1,10 +1,11 @@
-  for(let element of document.querySelectorAll(selector)) { element.innerHTML = element.innerHTML.replace(/\b(\d?[A-Z][a-z]{0,2}) (\d+)\.(\d+)(-\d+)?/g, '<a href="' + destination + '$1.html#$2.$3">$1 $2.$3$4</a>');}
-})('.comment td, .link, .footnote, .description', '');
-(function() {
-  document.querySelectorAll('.verse .el span').forEach(function(e) { e.addEventListener("dblclick", function(w) { window.open("../biblistyka/strong.html#" + w.toElement.dataset.strong, "_blank"); }); });
-})();
-(function() {
-  document.querySelector('.langs a.el').addEventListener("click", function(w) { document.querySelectorAll('.el').forEach(function(el) { el.classList.toggle('hide'); }); });;
-  document.querySelector('.langs a.la').addEventListener("click", function(w) { document.querySelectorAll('.la').forEach(function(el) { el.classList.toggle('hide'); }); });;
-  document.querySelector('.langs a.pl').addEventListener("click", function(w) { document.querySelectorAll('.pl').forEach(function(el) { el.classList.toggle('hide'); }); });;
-})();</script>
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <script src="../assets/js/main.js"></script>
+</head>
+<body>
+  for(let element of document.querySelectorAll(selector)) { element.innerHTML = element.innerHTML.replace(/\b(\d?[A-Z][a-z]{0,2}) (\d+)\.(\d+)(-\d+)?/g, '<a href="'%20+%20destination%20+%20'$1.html#$2.$3">$1 $2.$3$4</a>');} })('.comment td, .link, .footnote, .description', ''); (function() { document.querySelectorAll('.verse .el span').forEach(function(e) { e.addEventListener("dblclick", function(w) { window.open("../biblistyka/strong.html#" + w.toElement.dataset.strong, "_blank"); }); }); })(); (function() { document.querySelector('.langs a.el').addEventListener("click", function(w) { document.querySelectorAll('.el').forEach(function(el) { el.classList.toggle('hide'); }); });; document.querySelector('.langs a.la').addEventListener("click", function(w) { document.querySelectorAll('.la').forEach(function(el) { el.classList.toggle('hide'); }); });; document.querySelector('.langs a.pl').addEventListener("click", function(w) { document.querySelectorAll('.pl').forEach(function(el) { el.classList.toggle('hide'); }); });; })();
+  <script>S.toc(); S.links('.comment td, .link, .footnote, .description', '');S.langs();</script>
+</body>
+</html>

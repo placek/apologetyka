@@ -14,9 +14,9 @@ header        { margin: 0 2em; }
 a             { display: inline-block; }
 .link         { padding-right: 1em; }
 .hide         { display: none; }
-.langs        { position: fixed; z-index: 1; bottom: 1em; right: 1em; background: var(--base3); overflow-x: hidden; padding: .5em; }
-.langs a      { text-decoration: none; font-family: iosevka; cursor: pointer; padding: 0 .5em; }
-.langs a.hide { display: inline; text-decoration: line-through; }
+.langs        { position: fixed; z-index: 1; top: 0; right: 0; background: var(--base2); overflow-x: hidden; padding: .5em; border-left: 1px solid var(--blue); border-bottom: 1px solid var(--blue); }
+.langs a      { text-decoration: none; font-family: iosevka; cursor: pointer; padding: 0 .5em; color: var(--blue); }
+.langs a.hide { display: inline; text-decoration: line-through; color: var(--blue); }
 
 td.el span, header h1 { font-family: greek; }
 td.el span:after {
