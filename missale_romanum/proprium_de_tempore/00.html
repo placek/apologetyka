@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../../assets/styles/colors.css">
     <link rel="stylesheet" type="text/css" href="../../assets/styles/missa.css">
     <title>Pierwsza Niedziela Adwentu</title>
+    <script src="../../assets/js/main.js"></script>
   </head>
 
   <body>
@@ -108,7 +109,7 @@
       <img src="../../assets/logo.png"/>
     </footer>
     <script>
-      (function(selector) { for(let element of document.querySelectorAll(selector)) { element.innerHTML = element.innerHTML.replace(/\b(\d?[A-Z][a-z]{0,2}) (\d+)[\.,](\d+)(-\d+)?/g, function(m, book, chapter, verse, rest) { return '<a href="../../biblia/' + book.toLowerCase() + '.html#' + chapter + '.' + verse + '">' + book + ' ' + chapter + '.' + verse + (rest || '') + '</a>'; }); } })('h4, p');
+      S.links('p, h4', '../../biblia');
     </script>
   </body>
 </html>
