@@ -54,24 +54,29 @@ S.links = function(selector, destination) {
 
 S.langs = function() {
   let langs     = document.createElement('div');
+  let rand      = document.createElement('a');
   let el        = document.createElement('a');
   let la        = document.createElement('a');
   let pl        = document.createElement('a');
   let container = document.querySelector('body');
 
   langs.classList.add('langs');
+  rand.classList.add('rand');
   el.classList.add('el');
   la.classList.add('la');
   pl.classList.add('pl');
 
+  rand.innerHTML = '🎲';
   el.innerHTML = 'EL';
   la.innerHTML = 'LA';
   pl.innerHTML = 'PL';
 
-  el.onclick = function() { document.querySelectorAll('.el').forEach(function(el) { el.classList.toggle('hide'); }) };
-  la.onclick = function() { document.querySelectorAll('.la').forEach(function(el) { el.classList.toggle('hide'); }) };
-  pl.onclick = function() { document.querySelectorAll('.pl').forEach(function(el) { el.classList.toggle('hide'); }) };
+  rand.onclick = function() { items = document.querySelectorAll('tr.story'); items[Math.floor(Math.random()*items.length)].scrollIntoView(); };
+  el.onclick   = function() { document.querySelectorAll('.el').forEach(function(el) { el.classList.toggle('hide'); }) };
+  la.onclick   = function() { document.querySelectorAll('.la').forEach(function(el) { el.classList.toggle('hide'); }) };
+  pl.onclick   = function() { document.querySelectorAll('.pl').forEach(function(el) { el.classList.toggle('hide'); }) };
 
+  langs.appendChild(rand);
   langs.appendChild(el);
   langs.appendChild(la);
   langs.appendChild(pl);
